@@ -1,0 +1,13 @@
+department_id,department_name,function_group,cost_center,budget_owner
+D00,Revenue Operations,Revenue,CC-000,Chief Revenue Officer
+D01,Cloud Operations,Cost of Revenue,CC-100,VP Cloud Operations
+D02,Customer Support,Cost of Revenue,CC-110,VP Customer Success
+D03,Professional Services,Cost of Revenue,CC-120,VP Professional Services
+D04,Sales,Sales & Marketing,CC-200,Chief Revenue Officer
+D05,Marketing,Sales & Marketing,CC-210,Chief Marketing Officer
+D06,Product & Engineering,Research & Development,CC-300,Chief Product Officer
+D07,Finance,General & Administrative,CC-400,Chief Financial Officer
+D08,People,General & Administrative,CC-410,Chief People Officer
+D09,Legal & Compliance,General & Administrative,CC-420,General Counsel
+D10,Information Technology,General & Administrative,CC-430,Chief Information Officer
+D11,Executive,General & Administrative,CC-440,Chief Executive Officer

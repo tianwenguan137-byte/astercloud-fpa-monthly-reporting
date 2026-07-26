@@ -1,0 +1,18 @@
+assumption_id,category,assumption_name,value,unit,period,basis_type,source_id,rationale
+ASM-01,Company profile,Reporting currency,USD,Currency,All periods,Model convention,,Single reporting currency; Canadian payroll converted into USD-equivalent salary bands.
+ASM-02,Company profile,Reporting cutoff,2026-06-30,Date,2026 Q2,Model convention,,June 2026 is treated as a fully closed month.
+ASM-03,Revenue,2023 subscription revenue calibration,78000000,USD,FY2023,Scaled anchor,SRC-01,Sets the company at mid-market scale while preserving customer-level mix.
+ASM-04,Revenue,2023 services revenue calibration,17000000,USD,FY2023,Scaled anchor,SRC-02,Project revenue is scaled annually to a credible services mix.
+ASM-05,Revenue,Subscription recognition,Ratable monthly,Method,All periods,Accounting logic,SRC-01,Revenue uses average opening and ending MRR for event months.
+ASM-06,Revenue,Services recognition,Over time,Method,All periods,Accounting logic,SRC-01;SRC-02,T&M and fixed-price projects are recognized as work is performed.
+ASM-07,Retention,Annual churn probability,1.8% Enterprise; 4.0% Mid-Market; 7.0% SMB,Rate,All periods,Model assumption,SRC-01;SRC-03,Lower than SMB benchmarks and below Workday's disclosed 98% GRR for a scaled private-company profile.
+ASM-08,Pricing,Annual contractual uplift,0.03,Rate,Renewal month,Model assumption,SRC-01,Applied at renewal before expansion or contraction events.
+ASM-09,Compensation,Annual merit increase,0.035,Rate,Each January,Model assumption,SRC-04;SRC-05,Applied consistently across job families.
+ASM-10,Compensation,Benefits load,0.15,Rate of base salary,Monthly,Model assumption,SRC-04,Health retirement and other cash benefits; payroll taxes and bonus are separate.
+ASM-11,Compensation,Employer payroll tax,0.0765,Rate of base salary,Monthly,Model assumption,SRC-04,Simplified U.S.-equivalent payroll-tax load used for all regions.
+ASM-12,Planning,FY2026 subscription budget growth,0.18,Growth rate,FY2026,Management plan,SRC-03,Below the 25% private B2B SaaS survey median because the simulated company is larger and more mature.
+ASM-13,Planning,FY2026 services budget growth,0.14,Growth rate,FY2026,Management plan,SRC-02,Reflects implementation capacity and expected attach rates.
+ASM-14,Planning,Q2 forecast subscription adjustment,-0.045,Variance vs budget,Jul-Dec 2026,Business event,,Reflects two enterprise churn events and slower expansion.
+ASM-15,Planning,Q2 forecast services adjustment,-0.08,Variance vs budget,Jul-Dec 2026,Business event,,Reflects lower utilization and delayed implementation starts.
+ASM-16,Data generation,Random seed,20250725,Integer,All periods,Reproducibility control,,Re-running the generator with the same seed reproduces the same dataset.
+ASM-17,Project accounting,Direct labor allocation,Billable-hours share at loaded cost per available hour,Method,All periods,Synthetic timesheet logic,SRC-02;SRC-04,Client projects absorb billable delivery labor; internal and bench capacity remains in the services P&L rather than being forced into project margin.
