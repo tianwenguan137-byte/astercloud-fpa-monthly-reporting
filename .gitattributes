@@ -1,0 +1,2 @@
+# The Node generator is reproducibility tooling, not the portfolio's analytical layer.
+scripts/generate_synthetic_data.mjs linguist-detectable=false
