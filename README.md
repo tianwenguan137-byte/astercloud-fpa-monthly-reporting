@@ -89,8 +89,7 @@ The simulation uses four controls rather than unconstrained random numbers:
 4. **Reconciliation checks.** Subscription revenue, project revenue, payroll,
    invoices, planning periods, and referential integrity are tested in SQL.
 
-The model uses a fixed random seed (`20250725`), so the complete dataset is
-reproducible.
+The published dataset was generated with a fixed random seed (`20250725`) and is provided in both SQLite and CSV formats for consistent reuse.
 
 ## Public calibration sources
 
