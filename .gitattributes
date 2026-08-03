@@ -1,6 +1,0 @@
-# SQL is classified as a data language by GitHub Linguist, so include it
-# explicitly in this repository's language statistics.
-sql/*.sql linguist-language=SQL linguist-detectable
-
-# The Node generator is reproducibility tooling, not the analytical layer.
-scripts/generate_synthetic_data.mjs -linguist-detectable
