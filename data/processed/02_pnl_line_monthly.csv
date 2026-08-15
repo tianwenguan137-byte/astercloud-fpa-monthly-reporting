@@ -1,0 +1,529 @@
+month_start,scenario,pnl_line,statement_section,sort_order,amount_usd
+2023-01-01,Actual,"Subscription Revenue",Revenue,10,5807988.14
+2023-01-01,Actual,"Professional Services Revenue",Revenue,20,1271207.59
+2023-01-01,Actual,"Cost of Subscription","Cost of Revenue",40,1522816.51
+2023-01-01,Actual,"Cost of Services","Cost of Revenue",60,1088600.15
+2023-01-01,Actual,"Sales & Marketing","Operating Expense",100,1742514.56
+2023-01-01,Actual,"Research & Development","Operating Expense",140,1910907.45
+2023-01-01,Actual,"General & Administrative","Operating Expense",160,1307018.36
+2023-01-01,Actual,"Depreciation & Amortization",D&A,230,127425.52
+2023-02-01,Actual,"Subscription Revenue",Revenue,10,5880008.09
+2023-02-01,Actual,"Professional Services Revenue",Revenue,20,1363956.8
+2023-02-01,Actual,"Cost of Subscription","Cost of Revenue",40,1524736.22
+2023-02-01,Actual,"Cost of Services","Cost of Revenue",60,1117648.76
+2023-02-01,Actual,"Sales & Marketing","Operating Expense",100,1775752.07
+2023-02-01,Actual,"Research & Development","Operating Expense",140,1926903.57
+2023-02-01,Actual,"General & Administrative","Operating Expense",160,1301741.59
+2023-02-01,Actual,"Depreciation & Amortization",D&A,230,130391.37
+2023-03-01,Actual,"Subscription Revenue",Revenue,10,5955656.82
+2023-03-01,Actual,"Professional Services Revenue",Revenue,20,1408255.71
+2023-03-01,Actual,"Cost of Subscription","Cost of Revenue",40,1569856.8
+2023-03-01,Actual,"Cost of Services","Cost of Revenue",60,1091583.76
+2023-03-01,Actual,"Sales & Marketing","Operating Expense",100,1796443.99
+2023-03-01,Actual,"Research & Development","Operating Expense",140,1913468.36
+2023-03-01,Actual,"General & Administrative","Operating Expense",160,1297823.82
+2023-03-01,Actual,"Depreciation & Amortization",D&A,230,132550.43
+2023-04-01,Actual,"Subscription Revenue",Revenue,10,6127381.56
+2023-04-01,Actual,"Professional Services Revenue",Revenue,20,1874092.42
+2023-04-01,Actual,"Cost of Subscription","Cost of Revenue",40,1583171.33
+2023-04-01,Actual,"Cost of Services","Cost of Revenue",60,1148897.81
+2023-04-01,Actual,"Sales & Marketing","Operating Expense",100,1786384.79
+2023-04-01,Actual,"Research & Development","Operating Expense",140,1924122.95
+2023-04-01,Actual,"General & Administrative","Operating Expense",160,1359646.23
+2023-04-01,Actual,"Depreciation & Amortization",D&A,230,144026.53
+2023-05-01,Actual,"Subscription Revenue",Revenue,10,6334145.3
+2023-05-01,Actual,"Professional Services Revenue",Revenue,20,1582712.57
+2023-05-01,Actual,"Cost of Subscription","Cost of Revenue",40,1581376.12
+2023-05-01,Actual,"Cost of Services","Cost of Revenue",60,1162699.34
+2023-05-01,Actual,"Sales & Marketing","Operating Expense",100,1787550.45
+2023-05-01,Actual,"Research & Development","Operating Expense",140,1922153.38
+2023-05-01,Actual,"General & Administrative","Operating Expense",160,1274105.12
+2023-05-01,Actual,"Depreciation & Amortization",D&A,230,142503.44
+2023-06-01,Actual,"Subscription Revenue",Revenue,10,6430053.25
+2023-06-01,Actual,"Professional Services Revenue",Revenue,20,1559895.86
+2023-06-01,Actual,"Cost of Subscription","Cost of Revenue",40,1598262.3
+2023-06-01,Actual,"Cost of Services","Cost of Revenue",60,1154813.59
+2023-06-01,Actual,"Sales & Marketing","Operating Expense",100,1805930.81
+2023-06-01,Actual,"Research & Development","Operating Expense",140,1957514.41
+2023-06-01,Actual,"General & Administrative","Operating Expense",160,1345605.73
+2023-06-01,Actual,"Depreciation & Amortization",D&A,230,143819.08
+2023-07-01,Actual,"Subscription Revenue",Revenue,10,6510320.47
+2023-07-01,Actual,"Professional Services Revenue",Revenue,20,1276689.03
+2023-07-01,Actual,"Cost of Subscription","Cost of Revenue",40,1602531.23
+2023-07-01,Actual,"Cost of Services","Cost of Revenue",60,1134340.45
+2023-07-01,Actual,"Sales & Marketing","Operating Expense",100,1797504.58
+2023-07-01,Actual,"Research & Development","Operating Expense",140,1955638.03
+2023-07-01,Actual,"General & Administrative","Operating Expense",160,1302038.06
+2023-07-01,Actual,"Depreciation & Amortization",D&A,230,140166.17
+2023-08-01,Actual,"Subscription Revenue",Revenue,10,6645610.7
+2023-08-01,Actual,"Professional Services Revenue",Revenue,20,1145225.13
+2023-08-01,Actual,"Cost of Subscription","Cost of Revenue",40,1632728.98
+2023-08-01,Actual,"Cost of Services","Cost of Revenue",60,1117931.36
+2023-08-01,Actual,"Sales & Marketing","Operating Expense",100,1825378.16
+2023-08-01,Actual,"Research & Development","Operating Expense",140,1934952.07
+2023-08-01,Actual,"General & Administrative","Operating Expense",160,1372611.22
+2023-08-01,Actual,"Depreciation & Amortization",D&A,230,140235.04
+2023-09-01,Actual,"Subscription Revenue",Revenue,10,6832292.56
+2023-09-01,Actual,"Professional Services Revenue",Revenue,20,1245083.06
+2023-09-01,Actual,"Cost of Subscription","Cost of Revenue",40,1660211.98
+2023-09-01,Actual,"Cost of Services","Cost of Revenue",60,1154558.11
+2023-09-01,Actual,"Sales & Marketing","Operating Expense",100,1843170.23
+2023-09-01,Actual,"Research & Development","Operating Expense",140,1935792.15
+2023-09-01,Actual,"General & Administrative","Operating Expense",160,1394020.74
+2023-09-01,Actual,"Depreciation & Amortization",D&A,230,145392.76
+2023-10-01,Actual,"Subscription Revenue",Revenue,10,7030242.72
+2023-10-01,Actual,"Professional Services Revenue",Revenue,20,1279628.24
+2023-10-01,Actual,"Cost of Subscription","Cost of Revenue",40,1690939.22
+2023-10-01,Actual,"Cost of Services","Cost of Revenue",60,1162149.09
+2023-10-01,Actual,"Sales & Marketing","Operating Expense",100,1953721.7
+2023-10-01,Actual,"Research & Development","Operating Expense",140,1987898.72
+2023-10-01,Actual,"General & Administrative","Operating Expense",160,1357805.67
+2023-10-01,Actual,"Depreciation & Amortization",D&A,230,149577.68
+2023-11-01,Actual,"Subscription Revenue",Revenue,10,7167468.12
+2023-11-01,Actual,"Professional Services Revenue",Revenue,20,1362012.25
+2023-11-01,Actual,"Cost of Subscription","Cost of Revenue",40,1704208.9
+2023-11-01,Actual,"Cost of Services","Cost of Revenue",60,1165649.51
+2023-11-01,Actual,"Sales & Marketing","Operating Expense",100,1997134.43
+2023-11-01,Actual,"Research & Development","Operating Expense",140,1968070.76
+2023-11-01,Actual,"General & Administrative","Operating Expense",160,1398749.0
+2023-11-01,Actual,"Depreciation & Amortization",D&A,230,153530.65
+2023-12-01,Actual,"Subscription Revenue",Revenue,10,7278832.59
+2023-12-01,Actual,"Professional Services Revenue",Revenue,20,1631241.29
+2023-12-01,Actual,"Cost of Subscription","Cost of Revenue",40,1723799.73
+2023-12-01,Actual,"Cost of Services","Cost of Revenue",60,1159067.08
+2023-12-01,Actual,"Sales & Marketing","Operating Expense",100,2040742.01
+2023-12-01,Actual,"Research & Development","Operating Expense",140,1991197.44
+2023-12-01,Actual,"General & Administrative","Operating Expense",160,1379912.75
+2023-12-01,Actual,"Depreciation & Amortization",D&A,230,160381.33
+2024-01-01,Actual,"Subscription Revenue",Revenue,10,7384500.28
+2024-01-01,Actual,"Professional Services Revenue",Revenue,20,1721733.36
+2024-01-01,Actual,"Cost of Subscription","Cost of Revenue",40,1752303.83
+2024-01-01,Actual,"Cost of Services","Cost of Revenue",60,1212223.52
+2024-01-01,Actual,"Sales & Marketing","Operating Expense",100,2053955.98
+2024-01-01,Actual,"Research & Development","Operating Expense",140,2054087.9
+2024-01-01,Actual,"General & Administrative","Operating Expense",160,1444325.0
+2024-01-01,Actual,"Depreciation & Amortization",D&A,230,163912.21
+2024-02-01,Actual,"Subscription Revenue",Revenue,10,7461942.88
+2024-02-01,Actual,"Professional Services Revenue",Revenue,20,1708665.44
+2024-02-01,Actual,"Cost of Subscription","Cost of Revenue",40,1766954.06
+2024-02-01,Actual,"Cost of Services","Cost of Revenue",60,1244688.34
+2024-02-01,Actual,"Sales & Marketing","Operating Expense",100,2082873.12
+2024-02-01,Actual,"Research & Development","Operating Expense",140,2129029.18
+2024-02-01,Actual,"General & Administrative","Operating Expense",160,1532062.52
+2024-02-01,Actual,"Depreciation & Amortization",D&A,230,165070.95
+2024-03-01,Actual,"Subscription Revenue",Revenue,10,7554969.25
+2024-03-01,Actual,"Professional Services Revenue",Revenue,20,1701592.88
+2024-03-01,Actual,"Cost of Subscription","Cost of Revenue",40,1781501.52
+2024-03-01,Actual,"Cost of Services","Cost of Revenue",60,1245594.87
+2024-03-01,Actual,"Sales & Marketing","Operating Expense",100,2138676.78
+2024-03-01,Actual,"Research & Development","Operating Expense",140,2170862.77
+2024-03-01,Actual,"General & Administrative","Operating Expense",160,1560317.59
+2024-03-01,Actual,"Depreciation & Amortization",D&A,230,166618.12
+2024-04-01,Actual,"Subscription Revenue",Revenue,10,7722654.21
+2024-04-01,Actual,"Professional Services Revenue",Revenue,20,1638440.68
+2024-04-01,Actual,"Cost of Subscription","Cost of Revenue",40,1796841.67
+2024-04-01,Actual,"Cost of Services","Cost of Revenue",60,1224953.98
+2024-04-01,Actual,"Sales & Marketing","Operating Expense",100,2086415.05
+2024-04-01,Actual,"Research & Development","Operating Expense",140,2225179.38
+2024-04-01,Actual,"General & Administrative","Operating Expense",160,1494561.17
+2024-04-01,Actual,"Depreciation & Amortization",D&A,230,168499.71
+2024-05-01,Actual,"Subscription Revenue",Revenue,10,7880543.63
+2024-05-01,Actual,"Professional Services Revenue",Revenue,20,1383491.55
+2024-05-01,Actual,"Cost of Subscription","Cost of Revenue",40,1819167.18
+2024-05-01,Actual,"Cost of Services","Cost of Revenue",60,1215727.27
+2024-05-01,Actual,"Sales & Marketing","Operating Expense",100,2099328.75
+2024-05-01,Actual,"Research & Development","Operating Expense",140,2225889.89
+2024-05-01,Actual,"General & Administrative","Operating Expense",160,1462746.14
+2024-05-01,Actual,"Depreciation & Amortization",D&A,230,166752.63
+2024-06-01,Actual,"Subscription Revenue",Revenue,10,7941952.97
+2024-06-01,Actual,"Professional Services Revenue",Revenue,20,1668168.85
+2024-06-01,Actual,"Cost of Subscription","Cost of Revenue",40,1850096.0
+2024-06-01,Actual,"Cost of Services","Cost of Revenue",60,1256466.19
+2024-06-01,Actual,"Sales & Marketing","Operating Expense",100,2120686.33
+2024-06-01,Actual,"Research & Development","Operating Expense",140,2197207.65
+2024-06-01,Actual,"General & Administrative","Operating Expense",160,1478506.26
+2024-06-01,Actual,"Depreciation & Amortization",D&A,230,172982.19
+2024-07-01,Actual,"Subscription Revenue",Revenue,10,7968586.68
+2024-07-01,Actual,"Professional Services Revenue",Revenue,20,1261593.1
+2024-07-01,Actual,"Cost of Subscription","Cost of Revenue",40,1851803.41
+2024-07-01,Actual,"Cost of Services","Cost of Revenue",60,1211553.63
+2024-07-01,Actual,"Sales & Marketing","Operating Expense",100,2092252.97
+2024-07-01,Actual,"Research & Development","Operating Expense",140,2218450.72
+2024-07-01,Actual,"General & Administrative","Operating Expense",160,1524751.1
+2024-07-01,Actual,"Depreciation & Amortization",D&A,230,166143.24
+2024-08-01,Actual,"Subscription Revenue",Revenue,10,8032401.29
+2024-08-01,Actual,"Professional Services Revenue",Revenue,20,1493391.75
+2024-08-01,Actual,"Cost of Subscription","Cost of Revenue",40,1863877.63
+2024-08-01,Actual,"Cost of Services","Cost of Revenue",60,1242843.62
+2024-08-01,Actual,"Sales & Marketing","Operating Expense",100,2129894.28
+2024-08-01,Actual,"Research & Development","Operating Expense",140,2227465.16
+2024-08-01,Actual,"General & Administrative","Operating Expense",160,1515435.07
+2024-08-01,Actual,"Depreciation & Amortization",D&A,230,171464.27
+2024-09-01,Actual,"Subscription Revenue",Revenue,10,8120991.54
+2024-09-01,Actual,"Professional Services Revenue",Revenue,20,1507775.39
+2024-09-01,Actual,"Cost of Subscription","Cost of Revenue",40,1875616.11
+2024-09-01,Actual,"Cost of Services","Cost of Revenue",60,1223275.59
+2024-09-01,Actual,"Sales & Marketing","Operating Expense",100,2137661.46
+2024-09-01,Actual,"Research & Development","Operating Expense",140,2209908.24
+2024-09-01,Actual,"General & Administrative","Operating Expense",160,1507559.48
+2024-09-01,Actual,"Depreciation & Amortization",D&A,230,173317.8
+2024-10-01,Actual,"Subscription Revenue",Revenue,10,8177403.04
+2024-10-01,Actual,"Professional Services Revenue",Revenue,20,1492080.78
+2024-10-01,Actual,"Cost of Subscription","Cost of Revenue",40,1882773.2
+2024-10-01,Actual,"Cost of Services","Cost of Revenue",60,1215804.23
+2024-10-01,Actual,"Sales & Marketing","Operating Expense",100,2296802.37
+2024-10-01,Actual,"Research & Development","Operating Expense",140,2196231.62
+2024-10-01,Actual,"General & Administrative","Operating Expense",160,1589676.16
+2024-10-01,Actual,"Depreciation & Amortization",D&A,230,174050.71
+2024-11-01,Actual,"Subscription Revenue",Revenue,10,8257340.62
+2024-11-01,Actual,"Professional Services Revenue",Revenue,20,1888813.33
+2024-11-01,Actual,"Cost of Subscription","Cost of Revenue",40,1931357.8
+2024-11-01,Actual,"Cost of Services","Cost of Revenue",60,1265008.32
+2024-11-01,Actual,"Sales & Marketing","Operating Expense",100,2329181.59
+2024-11-01,Actual,"Research & Development","Operating Expense",140,2199491.34
+2024-11-01,Actual,"General & Administrative","Operating Expense",160,1579523.53
+2024-11-01,Actual,"Depreciation & Amortization",D&A,230,182630.77
+2024-12-01,Actual,"Subscription Revenue",Revenue,10,8363385.76
+2024-12-01,Actual,"Professional Services Revenue",Revenue,20,2034252.86
+2024-12-01,Actual,"Cost of Subscription","Cost of Revenue",40,1959526.12
+2024-12-01,Actual,"Cost of Services","Cost of Revenue",60,1247989.01
+2024-12-01,Actual,"Sales & Marketing","Operating Expense",100,2347988.95
+2024-12-01,Actual,"Research & Development","Operating Expense",140,2228470.85
+2024-12-01,Actual,"General & Administrative","Operating Expense",160,1554183.32
+2024-12-01,Actual,"Depreciation & Amortization",D&A,230,187157.5
+2025-01-01,Actual,"Subscription Revenue",Revenue,10,8444899.25
+2025-01-01,Actual,"Professional Services Revenue",Revenue,20,2008429.36
+2025-01-01,Actual,"Cost of Subscription","Cost of Revenue",40,1974728.36
+2025-01-01,Actual,"Cost of Services","Cost of Revenue",60,1263928.26
+2025-01-01,Actual,"Sales & Marketing","Operating Expense",100,2377281.08
+2025-01-01,Actual,"Research & Development","Operating Expense",140,2298797.59
+2025-01-01,Actual,"General & Administrative","Operating Expense",160,1644868.41
+2025-01-01,Actual,"Depreciation & Amortization",D&A,230,188159.91
+2025-02-01,Actual,"Subscription Revenue",Revenue,10,8522419.28
+2025-02-01,Actual,"Professional Services Revenue",Revenue,20,2221243.81
+2025-02-01,Actual,"Cost of Subscription","Cost of Revenue",40,1997948.01
+2025-02-01,Actual,"Cost of Services","Cost of Revenue",60,1300448.66
+2025-02-01,Actual,"Sales & Marketing","Operating Expense",100,2396358.67
+2025-02-01,Actual,"Research & Development","Operating Expense",140,2311669.49
+2025-02-01,Actual,"General & Administrative","Operating Expense",160,1681856.22
+2025-02-01,Actual,"Depreciation & Amortization",D&A,230,193385.94
+2025-03-01,Actual,"Subscription Revenue",Revenue,10,8599107.89
+2025-03-01,Actual,"Professional Services Revenue",Revenue,20,1940440.41
+2025-03-01,Actual,"Cost of Subscription","Cost of Revenue",40,2005769.49
+2025-03-01,Actual,"Cost of Services","Cost of Revenue",60,1237321.1
+2025-03-01,Actual,"Sales & Marketing","Operating Expense",100,2386303.31
+2025-03-01,Actual,"Research & Development","Operating Expense",140,2335604.77
+2025-03-01,Actual,"General & Administrative","Operating Expense",160,1719702.7
+2025-03-01,Actual,"Depreciation & Amortization",D&A,230,189711.87
+2025-04-01,Actual,"Subscription Revenue",Revenue,10,8689476.56
+2025-04-01,Actual,"Professional Services Revenue",Revenue,20,1575110.97
+2025-04-01,Actual,"Cost of Subscription","Cost of Revenue",40,2019044.29
+2025-04-01,Actual,"Cost of Services","Cost of Revenue",60,1189671.2
+2025-04-01,Actual,"Sales & Marketing","Operating Expense",100,2297387.85
+2025-04-01,Actual,"Research & Development","Operating Expense",140,2366420.07
+2025-04-01,Actual,"General & Administrative","Operating Expense",160,1586661.76
+2025-04-01,Actual,"Depreciation & Amortization",D&A,230,184762.58
+2025-05-01,Actual,"Subscription Revenue",Revenue,10,8881303.91
+2025-05-01,Actual,"Professional Services Revenue",Revenue,20,1322500.81
+2025-05-01,Actual,"Cost of Subscription","Cost of Revenue",40,2041618.75
+2025-05-01,Actual,"Cost of Services","Cost of Revenue",60,1162580.73
+2025-05-01,Actual,"Sales & Marketing","Operating Expense",100,2327500.18
+2025-05-01,Actual,"Research & Development","Operating Expense",140,2367283.29
+2025-05-01,Actual,"General & Administrative","Operating Expense",160,1594258.27
+2025-05-01,Actual,"Depreciation & Amortization",D&A,230,183668.48
+2025-06-01,Actual,"Subscription Revenue",Revenue,10,9121574.47
+2025-06-01,Actual,"Professional Services Revenue",Revenue,20,1428474.62
+2025-06-01,Actual,"Cost of Subscription","Cost of Revenue",40,2084091.14
+2025-06-01,Actual,"Cost of Services","Cost of Revenue",60,1156012.54
+2025-06-01,Actual,"Sales & Marketing","Operating Expense",100,2368767.11
+2025-06-01,Actual,"Research & Development","Operating Expense",140,2368364.51
+2025-06-01,Actual,"General & Administrative","Operating Expense",160,1660647.92
+2025-06-01,Actual,"Depreciation & Amortization",D&A,230,189900.88
+2025-07-01,Actual,"Subscription Revenue",Revenue,10,9246914.88
+2025-07-01,Actual,"Professional Services Revenue",Revenue,20,1368624.91
+2025-07-01,Actual,"Cost of Subscription","Cost of Revenue",40,2101611.18
+2025-07-01,Actual,"Cost of Services","Cost of Revenue",60,1167421.22
+2025-07-01,Actual,"Sales & Marketing","Operating Expense",100,2362533.1
+2025-07-01,Actual,"Research & Development","Operating Expense",140,2381982.59
+2025-07-01,Actual,"General & Administrative","Operating Expense",160,1628885.9
+2025-07-01,Actual,"Depreciation & Amortization",D&A,230,191079.72
+2025-08-01,Actual,"Subscription Revenue",Revenue,10,9335581.33
+2025-08-01,Actual,"Professional Services Revenue",Revenue,20,1694764.42
+2025-08-01,Actual,"Cost of Subscription","Cost of Revenue",40,2138609.91
+2025-08-01,Actual,"Cost of Services","Cost of Revenue",60,1173477.23
+2025-08-01,Actual,"Sales & Marketing","Operating Expense",100,2402820.33
+2025-08-01,Actual,"Research & Development","Operating Expense",140,2421228.9
+2025-08-01,Actual,"General & Administrative","Operating Expense",160,1665509.39
+2025-08-01,Actual,"Depreciation & Amortization",D&A,230,198546.22
+2025-09-01,Actual,"Subscription Revenue",Revenue,10,9452391.09
+2025-09-01,Actual,"Professional Services Revenue",Revenue,20,1738271.54
+2025-09-01,Actual,"Cost of Subscription","Cost of Revenue",40,2144591.13
+2025-09-01,Actual,"Cost of Services","Cost of Revenue",60,1188788.13
+2025-09-01,Actual,"Sales & Marketing","Operating Expense",100,2395917.9
+2025-09-01,Actual,"Research & Development","Operating Expense",140,2438291.22
+2025-09-01,Actual,"General & Administrative","Operating Expense",160,1645525.54
+2025-09-01,Actual,"Depreciation & Amortization",D&A,230,201431.93
+2025-10-01,Actual,"Subscription Revenue",Revenue,10,9526175.2
+2025-10-01,Actual,"Professional Services Revenue",Revenue,20,2214499.16
+2025-10-01,Actual,"Cost of Subscription","Cost of Revenue",40,2163718.7
+2025-10-01,Actual,"Cost of Services","Cost of Revenue",60,1208044.08
+2025-10-01,Actual,"Sales & Marketing","Operating Expense",100,2574249.37
+2025-10-01,Actual,"Research & Development","Operating Expense",140,2402860.81
+2025-10-01,Actual,"General & Administrative","Operating Expense",160,1666406.03
+2025-10-01,Actual,"Depreciation & Amortization",D&A,230,211332.14
+2025-11-01,Actual,"Subscription Revenue",Revenue,10,9545415.48
+2025-11-01,Actual,"Professional Services Revenue",Revenue,20,2410504.21
+2025-11-01,Actual,"Cost of Subscription","Cost of Revenue",40,2157011.75
+2025-11-01,Actual,"Cost of Services","Cost of Revenue",60,1180341.18
+2025-11-01,Actual,"Sales & Marketing","Operating Expense",100,2596130.22
+2025-11-01,Actual,"Research & Development","Operating Expense",140,2433488.91
+2025-11-01,Actual,"General & Administrative","Operating Expense",160,1671794.91
+2025-11-01,Actual,"Depreciation & Amortization",D&A,230,215206.55
+2025-12-01,Actual,"Subscription Revenue",Revenue,10,9606214.62
+2025-12-01,Actual,"Professional Services Revenue",Revenue,20,1577135.66
+2025-12-01,Actual,"Cost of Subscription","Cost of Revenue",40,2192345.28
+2025-12-01,Actual,"Cost of Services","Cost of Revenue",60,1155602.48
+2025-12-01,Actual,"Sales & Marketing","Operating Expense",100,2563315.45
+2025-12-01,Actual,"Research & Development","Operating Expense",140,2420851.72
+2025-12-01,Actual,"General & Administrative","Operating Expense",160,1633136.89
+2025-12-01,Actual,"Depreciation & Amortization",D&A,230,201300.31
+2026-01-01,Actual,"Subscription Revenue",Revenue,10,9723598.24
+2026-01-01,Actual,"Professional Services Revenue",Revenue,20,1668592.53
+2026-01-01,Actual,"Cost of Subscription","Cost of Revenue",40,2269755.03
+2026-01-01,Actual,"Cost of Services","Cost of Revenue",60,1228811.8
+2026-01-01,Actual,"Sales & Marketing","Operating Expense",100,2603511.97
+2026-01-01,Actual,"Research & Development","Operating Expense",140,2558144.16
+2026-01-01,Actual,"General & Administrative","Operating Expense",160,1781737.32
+2026-01-01,Actual,"Depreciation & Amortization",D&A,230,205059.43
+2026-01-01,Budget,"Subscription Revenue",Revenue,10,9964981.12
+2026-01-01,Budget,"Professional Services Revenue",Revenue,20,2289609.48
+2026-01-01,Budget,"Cost of Subscription","Cost of Revenue",40,2185030.54
+2026-01-01,Budget,"Cost of Services","Cost of Revenue",60,1398494.26
+2026-01-01,Budget,"Sales & Marketing","Operating Expense",100,2678482.0
+2026-01-01,Budget,"Research & Development","Operating Expense",140,2616029.6
+2026-01-01,Budget,"General & Administrative","Operating Expense",160,1797733.04
+2026-01-01,Budget,"Depreciation & Amortization",D&A,230,206975.9
+2026-01-01,"Q2 Forecast","Subscription Revenue",Revenue,10,9723598.24
+2026-01-01,"Q2 Forecast","Professional Services Revenue",Revenue,20,1668592.53
+2026-01-01,"Q2 Forecast","Cost of Subscription","Cost of Revenue",40,2269755.03
+2026-01-01,"Q2 Forecast","Cost of Services","Cost of Revenue",60,1228811.8
+2026-01-01,"Q2 Forecast","Sales & Marketing","Operating Expense",100,2603511.97
+2026-01-01,"Q2 Forecast","Research & Development","Operating Expense",140,2558144.16
+2026-01-01,"Q2 Forecast","General & Administrative","Operating Expense",160,1781737.32
+2026-01-01,"Q2 Forecast","Depreciation & Amortization",D&A,230,205059.43
+2026-02-01,Actual,"Subscription Revenue",Revenue,10,9872349.5
+2026-02-01,Actual,"Professional Services Revenue",Revenue,20,1821056.82
+2026-02-01,Actual,"Cost of Subscription","Cost of Revenue",40,2295336.31
+2026-02-01,Actual,"Cost of Services","Cost of Revenue",60,1227088.8
+2026-02-01,Actual,"Sales & Marketing","Operating Expense",100,2599615.61
+2026-02-01,Actual,"Research & Development","Operating Expense",140,2597812.04
+2026-02-01,Actual,"General & Administrative","Operating Expense",160,1753583.18
+2026-02-01,Actual,"Depreciation & Amortization",D&A,230,210481.31
+2026-02-01,Budget,"Subscription Revenue",Revenue,10,10056454.75
+2026-02-01,Budget,"Professional Services Revenue",Revenue,20,2532217.95
+2026-02-01,Budget,"Cost of Subscription","Cost of Revenue",40,2210715.4
+2026-02-01,Budget,"Cost of Services","Cost of Revenue",60,1438065.35
+2026-02-01,Budget,"Sales & Marketing","Operating Expense",100,2699862.33
+2026-02-01,Budget,"Research & Development","Operating Expense",140,2630696.6
+2026-02-01,Budget,"General & Administrative","Operating Expense",160,1840471.09
+2026-02-01,Budget,"Depreciation & Amortization",D&A,230,212724.53
+2026-02-01,"Q2 Forecast","Subscription Revenue",Revenue,10,9872349.5
+2026-02-01,"Q2 Forecast","Professional Services Revenue",Revenue,20,1821056.82
+2026-02-01,"Q2 Forecast","Cost of Subscription","Cost of Revenue",40,2295336.31
+2026-02-01,"Q2 Forecast","Cost of Services","Cost of Revenue",60,1227088.8
+2026-02-01,"Q2 Forecast","Sales & Marketing","Operating Expense",100,2599615.61
+2026-02-01,"Q2 Forecast","Research & Development","Operating Expense",140,2597812.04
+2026-02-01,"Q2 Forecast","General & Administrative","Operating Expense",160,1753583.18
+2026-02-01,"Q2 Forecast","Depreciation & Amortization",D&A,230,210481.31
+2026-03-01,Actual,"Subscription Revenue",Revenue,10,9961728.13
+2026-03-01,Actual,"Professional Services Revenue",Revenue,20,1637203.81
+2026-03-01,Actual,"Cost of Subscription","Cost of Revenue",40,2323179.24
+2026-03-01,Actual,"Cost of Services","Cost of Revenue",60,1198377.77
+2026-03-01,Actual,"Sales & Marketing","Operating Expense",100,2596502.11
+2026-03-01,Actual,"Research & Development","Operating Expense",140,2620733.02
+2026-03-01,Actual,"General & Administrative","Operating Expense",160,1719342.31
+2026-03-01,Actual,"Depreciation & Amortization",D&A,230,208780.77
+2026-03-01,Budget,"Subscription Revenue",Revenue,10,10146947.31
+2026-03-01,Budget,"Professional Services Revenue",Revenue,20,2212102.07
+2026-03-01,Budget,"Cost of Subscription","Cost of Revenue",40,2219384.99
+2026-03-01,Budget,"Cost of Services","Cost of Revenue",60,1369038.47
+2026-03-01,Budget,"Sales & Marketing","Operating Expense",100,2688699.01
+2026-03-01,Budget,"Research & Development","Operating Expense",140,2657946.91
+2026-03-01,Budget,"General & Administrative","Operating Expense",160,1884982.68
+2026-03-01,Budget,"Depreciation & Amortization",D&A,230,208683.06
+2026-03-01,"Q2 Forecast","Subscription Revenue",Revenue,10,9961728.13
+2026-03-01,"Q2 Forecast","Professional Services Revenue",Revenue,20,1637203.81
+2026-03-01,"Q2 Forecast","Cost of Subscription","Cost of Revenue",40,2323179.24
+2026-03-01,"Q2 Forecast","Cost of Services","Cost of Revenue",60,1198377.77
+2026-03-01,"Q2 Forecast","Sales & Marketing","Operating Expense",100,2596502.11
+2026-03-01,"Q2 Forecast","Research & Development","Operating Expense",140,2620733.02
+2026-03-01,"Q2 Forecast","General & Administrative","Operating Expense",160,1719342.31
+2026-03-01,"Q2 Forecast","Depreciation & Amortization",D&A,230,208780.77
+2026-04-01,Actual,"Subscription Revenue",Revenue,10,9869587.73
+2026-04-01,Actual,"Professional Services Revenue",Revenue,20,1650055.73
+2026-04-01,Actual,"Cost of Subscription","Cost of Revenue",40,2285253.93
+2026-04-01,Actual,"Cost of Services","Cost of Revenue",60,1204631.87
+2026-04-01,Actual,"Sales & Marketing","Operating Expense",100,2527217.5
+2026-04-01,Actual,"Research & Development","Operating Expense",140,2637119.45
+2026-04-01,Actual,"General & Administrative","Operating Expense",160,1675117.74
+2026-04-01,Actual,"Depreciation & Amortization",D&A,230,207353.58
+2026-04-01,Budget,"Subscription Revenue",Revenue,10,10253582.33
+2026-04-01,Budget,"Professional Services Revenue",Revenue,20,1795626.51
+2026-04-01,Budget,"Cost of Subscription","Cost of Revenue",40,2234085.26
+2026-04-01,Budget,"Cost of Services","Cost of Revenue",60,1317047.24
+2026-04-01,Budget,"Sales & Marketing","Operating Expense",100,2590420.92
+2026-04-01,Budget,"Research & Development","Operating Expense",140,2693010.22
+2026-04-01,Budget,"General & Administrative","Operating Expense",160,1737342.89
+2026-04-01,Budget,"Depreciation & Amortization",D&A,230,203238.84
+2026-04-01,"Q2 Forecast","Subscription Revenue",Revenue,10,9869587.73
+2026-04-01,"Q2 Forecast","Professional Services Revenue",Revenue,20,1650055.73
+2026-04-01,"Q2 Forecast","Cost of Subscription","Cost of Revenue",40,2285253.93
+2026-04-01,"Q2 Forecast","Cost of Services","Cost of Revenue",60,1204631.87
+2026-04-01,"Q2 Forecast","Sales & Marketing","Operating Expense",100,2527217.5
+2026-04-01,"Q2 Forecast","Research & Development","Operating Expense",140,2637119.45
+2026-04-01,"Q2 Forecast","General & Administrative","Operating Expense",160,1675117.74
+2026-04-01,"Q2 Forecast","Depreciation & Amortization",D&A,230,207353.58
+2026-05-01,Actual,"Subscription Revenue",Revenue,10,9862711.13
+2026-05-01,Actual,"Professional Services Revenue",Revenue,20,1974030.18
+2026-05-01,Actual,"Cost of Subscription","Cost of Revenue",40,2205052.97
+2026-05-01,Actual,"Cost of Services","Cost of Revenue",60,1240229.52
+2026-05-01,Actual,"Sales & Marketing","Operating Expense",100,2547228.54
+2026-05-01,Actual,"Research & Development","Operating Expense",140,2637088.51
+2026-05-01,Actual,"General & Administrative","Operating Expense",160,1737324.02
+2026-05-01,Actual,"Depreciation & Amortization",D&A,230,213061.34
+2026-05-01,Budget,"Subscription Revenue",Revenue,10,10479938.61
+2026-05-01,Budget,"Professional Services Revenue",Revenue,20,1507650.92
+2026-05-01,Budget,"Cost of Subscription","Cost of Revenue",40,2259097.18
+2026-05-01,Budget,"Cost of Services","Cost of Revenue",60,1287739.81
+2026-05-01,Budget,"Sales & Marketing","Operating Expense",100,2624301.57
+2026-05-01,Budget,"Research & Development","Operating Expense",140,2693977.03
+2026-05-01,Budget,"General & Administrative","Operating Expense",160,1745314.96
+2026-05-01,Budget,"Depreciation & Amortization",D&A,230,202035.33
+2026-05-01,"Q2 Forecast","Subscription Revenue",Revenue,10,9862711.13
+2026-05-01,"Q2 Forecast","Professional Services Revenue",Revenue,20,1974030.18
+2026-05-01,"Q2 Forecast","Cost of Subscription","Cost of Revenue",40,2205052.97
+2026-05-01,"Q2 Forecast","Cost of Services","Cost of Revenue",60,1240229.52
+2026-05-01,"Q2 Forecast","Sales & Marketing","Operating Expense",100,2547228.54
+2026-05-01,"Q2 Forecast","Research & Development","Operating Expense",140,2637088.51
+2026-05-01,"Q2 Forecast","General & Administrative","Operating Expense",160,1737324.02
+2026-05-01,"Q2 Forecast","Depreciation & Amortization",D&A,230,213061.34
+2026-06-01,Actual,"Subscription Revenue",Revenue,10,9876052.54
+2026-06-01,Actual,"Professional Services Revenue",Revenue,20,1649060.86
+2026-06-01,Actual,"Cost of Subscription","Cost of Revenue",40,2193959.09
+2026-06-01,Actual,"Cost of Services","Cost of Revenue",60,1210258.41
+2026-06-01,Actual,"Sales & Marketing","Operating Expense",100,2553505.27
+2026-06-01,Actual,"Research & Development","Operating Expense",140,2611375.29
+2026-06-01,Actual,"General & Administrative","Operating Expense",160,1720913.82
+2026-06-01,Actual,"Depreciation & Amortization",D&A,230,207452.04
+2026-06-01,Budget,"Subscription Revenue",Revenue,10,10763457.87
+2026-06-01,Budget,"Professional Services Revenue",Revenue,20,1628461.07
+2026-06-01,Budget,"Cost of Subscription","Cost of Revenue",40,2306113.26
+2026-06-01,Budget,"Cost of Services","Cost of Revenue",60,1280272.04
+2026-06-01,Budget,"Sales & Marketing","Operating Expense",100,2670866.96
+2026-06-01,Budget,"Research & Development","Operating Expense",140,2695187.98
+2026-06-01,Budget,"General & Administrative","Operating Expense",160,1820651.35
+2026-06-01,Budget,"Depreciation & Amortization",D&A,230,208890.97
+2026-06-01,"Q2 Forecast","Subscription Revenue",Revenue,10,9876052.54
+2026-06-01,"Q2 Forecast","Professional Services Revenue",Revenue,20,1649060.86
+2026-06-01,"Q2 Forecast","Cost of Subscription","Cost of Revenue",40,2193959.09
+2026-06-01,"Q2 Forecast","Cost of Services","Cost of Revenue",60,1210258.41
+2026-06-01,"Q2 Forecast","Sales & Marketing","Operating Expense",100,2553505.27
+2026-06-01,"Q2 Forecast","Research & Development","Operating Expense",140,2611375.29
+2026-06-01,"Q2 Forecast","General & Administrative","Operating Expense",160,1720913.82
+2026-06-01,"Q2 Forecast","Depreciation & Amortization",D&A,230,207452.04
+2026-07-01,Budget,"Subscription Revenue",Revenue,10,10911359.56
+2026-07-01,Budget,"Professional Services Revenue",Revenue,20,1560232.39
+2026-07-01,Budget,"Cost of Subscription","Cost of Revenue",40,2325516.78
+2026-07-01,Budget,"Cost of Services","Cost of Revenue",60,1292607.7
+2026-07-01,Budget,"Sales & Marketing","Operating Expense",100,2664113.88
+2026-07-01,Budget,"Research & Development","Operating Expense",140,2710672.33
+2026-07-01,Budget,"General & Administrative","Operating Expense",160,1782920.51
+2026-07-01,Budget,"Depreciation & Amortization",D&A,230,210187.69
+2026-07-01,"Q2 Forecast","Subscription Revenue",Revenue,10,10420348.38
+2026-07-01,"Q2 Forecast","Professional Services Revenue",Revenue,20,1435413.79
+2026-07-01,"Q2 Forecast","Cost of Subscription","Cost of Revenue",40,2212919.65
+2026-07-01,"Q2 Forecast","Cost of Services","Cost of Revenue",60,1235997.97
+2026-07-01,"Q2 Forecast","Sales & Marketing","Operating Expense",100,2577312.8
+2026-07-01,"Q2 Forecast","Research & Development","Operating Expense",140,2595395.02
+2026-07-01,"Q2 Forecast","General & Administrative","Operating Expense",160,1770746.54
+2026-07-01,"Q2 Forecast","Depreciation & Amortization",D&A,230,208085.81
+2026-08-01,Budget,"Subscription Revenue",Revenue,10,11015985.97
+2026-08-01,Budget,"Professional Services Revenue",Revenue,20,1932031.43
+2026-08-01,Budget,"Cost of Subscription","Cost of Revenue",40,2366431.41
+2026-08-01,Budget,"Cost of Services","Cost of Revenue",60,1299316.25
+2026-08-01,Budget,"Sales & Marketing","Operating Expense",100,2709451.54
+2026-08-01,Budget,"Research & Development","Operating Expense",140,2755347.16
+2026-08-01,Budget,"General & Administrative","Operating Expense",160,1824892.77
+2026-08-01,Budget,"Depreciation & Amortization",D&A,230,218400.84
+2026-08-01,"Q2 Forecast","Subscription Revenue",Revenue,10,10520266.6
+2026-08-01,"Q2 Forecast","Professional Services Revenue",Revenue,20,1780047.06
+2026-08-01,"Q2 Forecast","Cost of Subscription","Cost of Revenue",40,2251702.57
+2026-08-01,"Q2 Forecast","Cost of Services","Cost of Revenue",60,1242320.4
+2026-08-01,"Q2 Forecast","Sales & Marketing","Operating Expense",100,2621595.57
+2026-08-01,"Q2 Forecast","Research & Development","Operating Expense",140,2638151.85
+2026-08-01,"Q2 Forecast","General & Administrative","Operating Expense",160,1805469.41
+2026-08-01,"Q2 Forecast","Depreciation & Amortization",D&A,230,216216.83
+2026-09-01,Budget,"Subscription Revenue",Revenue,10,11153821.49
+2026-09-01,Budget,"Professional Services Revenue",Revenue,20,1981629.56
+2026-09-01,Budget,"Cost of Subscription","Cost of Revenue",40,2373081.54
+2026-09-01,Budget,"Cost of Services","Cost of Revenue",60,1315760.04
+2026-09-01,Budget,"Sales & Marketing","Operating Expense",100,2701992.63
+2026-09-01,Budget,"Research & Development","Operating Expense",140,2774758.68
+2026-09-01,Budget,"General & Administrative","Operating Expense",160,1800392.62
+2026-09-01,Budget,"Depreciation & Amortization",D&A,230,221575.12
+2026-09-01,"Q2 Forecast","Subscription Revenue",Revenue,10,10651899.52
+2026-09-01,"Q2 Forecast","Professional Services Revenue",Revenue,20,1823099.21
+2026-09-01,"Q2 Forecast","Cost of Subscription","Cost of Revenue",40,2257913.09
+2026-09-01,"Q2 Forecast","Cost of Services","Cost of Revenue",60,1258372.07
+2026-09-01,"Q2 Forecast","Sales & Marketing","Operating Expense",100,2614498.07
+2026-09-01,"Q2 Forecast","Research & Development","Operating Expense",140,2656745.19
+2026-09-01,"Q2 Forecast","General & Administrative","Operating Expense",160,1791293.54
+2026-09-01,"Q2 Forecast","Depreciation & Amortization",D&A,230,219359.37
+2026-10-01,Budget,"Subscription Revenue",Revenue,10,11240886.73
+2026-10-01,Budget,"Professional Services Revenue",Revenue,20,2524529.04
+2026-10-01,Budget,"Cost of Subscription","Cost of Revenue",40,2394243.34
+2026-10-01,Budget,"Cost of Services","Cost of Revenue",60,1336947.87
+2026-10-01,Budget,"Sales & Marketing","Operating Expense",100,2898968.2
+2026-10-01,Budget,"Research & Development","Operating Expense",140,2734419.37
+2026-10-01,Budget,"General & Administrative","Operating Expense",160,1824871.38
+2026-10-01,Budget,"Depreciation & Amortization",D&A,230,232465.35
+2026-10-01,"Q2 Forecast","Subscription Revenue",Revenue,10,10735046.83
+2026-10-01,"Q2 Forecast","Professional Services Revenue",Revenue,20,2322566.72
+2026-10-01,"Q2 Forecast","Cost of Subscription","Cost of Revenue",40,2277237.92
+2026-10-01,"Q2 Forecast","Cost of Services","Cost of Revenue",60,1278692.21
+2026-10-01,"Q2 Forecast","Sales & Marketing","Operating Expense",100,2813471.86
+2026-10-01,"Q2 Forecast","Research & Development","Operating Expense",140,2618149.23
+2026-10-01,"Q2 Forecast","General & Administrative","Operating Expense",160,1809871.9
+2026-10-01,"Q2 Forecast","Depreciation & Amortization",D&A,230,230140.7
+2026-11-01,Budget,"Subscription Revenue",Revenue,10,11263590.26
+2026-11-01,Budget,"Professional Services Revenue",Revenue,20,2747974.81
+2026-11-01,Budget,"Cost of Subscription","Cost of Revenue",40,2386838.88
+2026-11-01,Budget,"Cost of Services","Cost of Revenue",60,1305780.62
+2026-11-01,Budget,"Sales & Marketing","Operating Expense",100,2923355.52
+2026-11-01,Budget,"Research & Development","Operating Expense",140,2769246.67
+2026-11-01,Budget,"General & Administrative","Operating Expense",160,1833552.39
+2026-11-01,Budget,"Depreciation & Amortization",D&A,230,236727.21
+2026-11-01,"Q2 Forecast","Subscription Revenue",Revenue,10,10756728.7
+2026-11-01,"Q2 Forecast","Professional Services Revenue",Revenue,20,2528136.83
+2026-11-01,"Q2 Forecast","Cost of Subscription","Cost of Revenue",40,2271201.4
+2026-11-01,"Q2 Forecast","Cost of Services","Cost of Revenue",60,1249125.89
+2026-11-01,"Q2 Forecast","Sales & Marketing","Operating Expense",100,2837530.38
+2026-11-01,"Q2 Forecast","Research & Development","Operating Expense",140,2651533.52
+2026-11-01,"Q2 Forecast","General & Administrative","Operating Expense",160,1807870.59
+2026-11-01,"Q2 Forecast","Depreciation & Amortization",D&A,230,234359.94
+2026-12-01,Budget,"Subscription Revenue",Revenue,10,11335333.26
+2026-12-01,Budget,"Professional Services Revenue",Revenue,20,1797934.65
+2026-12-01,Budget,"Cost of Subscription","Cost of Revenue",40,2425903.7
+2026-12-01,Budget,"Cost of Services","Cost of Revenue",60,1278967.78
+2026-12-01,Budget,"Sales & Marketing","Operating Expense",100,2887004.51
+2026-12-01,Budget,"Research & Development","Operating Expense",140,2754863.79
+2026-12-01,Budget,"General & Administrative","Operating Expense",160,1788930.39
+2026-12-01,Budget,"Depreciation & Amortization",D&A,230,221430.34
+2026-12-01,"Q2 Forecast","Subscription Revenue",Revenue,10,10825243.26
+2026-12-01,"Q2 Forecast","Professional Services Revenue",Revenue,20,1654099.88
+2026-12-01,"Q2 Forecast","Cost of Subscription","Cost of Revenue",40,2308262.83
+2026-12-01,"Q2 Forecast","Cost of Services","Cost of Revenue",60,1223221.99
+2026-12-01,"Q2 Forecast","Sales & Marketing","Operating Expense",100,2800579.28
+2026-12-01,"Q2 Forecast","Research & Development","Operating Expense",140,2637764.95
+2026-12-01,"Q2 Forecast","General & Administrative","Operating Expense",160,1772213.85
+2026-12-01,"Q2 Forecast","Depreciation & Amortization",D&A,230,219216.04

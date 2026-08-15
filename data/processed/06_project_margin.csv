@@ -1,0 +1,212 @@
+project_id,customer_name,segment,region_name,project_type,contract_type,start_month,planned_end_month,status,revenue_to_date_usd,direct_labor_cost_usd,subcontractor_cost_usd,travel_cost_usd,gross_profit_usd,gross_margin_pct,realized_bill_rate_usd
+P0063,"Ironwood Health 251",SMB,"US Central",Implementation,"Fixed Price",2025-03-01,2025-12-01,Completed,131878.58,104733.15,13702.5,1586.27,11856.66,0.0899,118.2
+P0101,"Nova Retail 118",Enterprise,"US West",Implementation,"Fixed Price",2024-04-01,2024-09-01,Completed,552620.04,434855.8,61581.48,4068.6,52114.17,0.0943,115.09
+P0117,"Stonegate Manufacturing 103",Enterprise,"US Central",Implementation,"Fixed Price",2023-04-01,2023-11-01,Completed,689881.12,540205.98,71919.05,9135.07,68621.02,0.0995,114.3
+P0205,"Vantage Retail 211",Enterprise,Canada,Implementation,"Fixed Price",2024-07-01,2024-10-01,Completed,825313.94,647682.14,68915.37,8412.48,100303.94,0.1215,115.9
+P0119,"Northstar Health 063",Mid-Market,"US Central",Optimization,"Time and Materials",2023-09-01,2023-10-01,Completed,242188.09,196105.19,11684.19,4238.17,30160.55,0.1245,109.9
+P0085,"Keystone Mobility 008",Mid-Market,"US Central",Implementation,"Fixed Price",2023-05-01,2023-11-01,Completed,262368.92,203340.01,18151.75,4345.86,36531.28,0.1392,115.29
+P0083,"BluePeak Education 127",Mid-Market,"US East",Implementation,"Fixed Price",2024-12-01,2025-07-01,Completed,212844.7,139787.69,23895.17,3111.91,46049.96,0.2164,144.04
+P0016,"BrightPath Mobility 134",SMB,"US Central",Implementation,"Fixed Price",2022-07-01,2023-01-01,Completed,6052.64,3624.41,945.56,130.36,1352.31,0.2234,150.94
+P0034,"Highland Foods 117",Mid-Market,"US West",Implementation,"Fixed Price",2025-04-01,2025-08-01,Completed,367125.67,225864.24,44520.99,3897.66,92842.8,0.2529,152.87
+P0049,"Meridian Technology 014",SMB,"US East",Implementation,"Time and Materials",2023-06-01,2023-10-01,Completed,123668.82,74935.49,15322.34,1867.85,31543.16,0.2551,147.52
+P0032,"Keystone Logistics 099",SMB,"US West",Implementation,"Time and Materials",2023-07-01,2024-02-01,Completed,87981.87,56627.18,7630.55,1068.3,22655.88,0.2575,139.01
+P0128,"Silverline Mobility 042",SMB,Canada,Implementation,"Time and Materials",2023-04-01,2024-03-01,Completed,205775.96,122446.54,19163.01,2947.1,61219.34,0.2975,150.93
+P0006,"Summit Logistics 035",Enterprise,"US West",Implementation,"Fixed Price",2022-12-01,2023-03-01,Completed,504483.95,285922.45,60803.65,6972.05,150785.8,0.2989,159.44
+P0100,"Summit Retail 270",Enterprise,"US West",Implementation,"Time and Materials",2023-06-01,2023-10-01,Completed,642322.04,381777.81,58821.79,5501.8,196220.61,0.3055,150.45
+P0184,"Northstar Education 158",Mid-Market,"US West",Implementation,"Fixed Price",2023-03-01,2024-02-01,Completed,308114.72,182224.24,28101.57,3476.9,94311.97,0.3061,151.36
+P0081,"Clearwater Education 183",SMB,"US East",Implementation,"Fixed Price",2024-10-01,2025-08-01,Completed,82304.66,49320.82,6793.57,840.53,25349.79,0.308,157.13
+P0130,"Harbor Media 291",Enterprise,"US East",Implementation,"Fixed Price",2026-06-01,2026-11-01,"In Progress",62828.89,39100.94,3284.74,1032.63,19410.58,0.3089,154.71
+P0036,"Oakridge Logistics 192",SMB,"US Central",Implementation,"Time and Materials",2023-05-01,2023-12-01,Completed,189254.18,110906.34,18067.48,1732.92,58547.41,0.3094,152.48
+P0097,"Lakeview Education 004",Enterprise,"US East",Implementation,"Time and Materials",2023-06-01,2024-02-01,Completed,832167.21,490877.08,69392.14,9632.25,262265.74,0.3152,151.82
+P0048,"Stonegate Foods 073",Enterprise,"US West",Implementation,"Time and Materials",2025-02-01,2025-08-01,Completed,1003143.88,584263.28,88416.41,11828.89,318635.31,0.3176,161.98
+P0035,"Atlas Foods 149",Enterprise,"US West",Implementation,"Fixed Price",2025-10-01,2026-05-01,Completed,947735.71,527674.06,105027.23,13414.98,301619.45,0.3183,171.27
+P0082,"Ironwood Mobility 244",SMB,"US East",Implementation,"Time and Materials",2023-04-01,2023-10-01,Completed,174655.36,99428.25,17279.73,1529.41,56417.98,0.323,157.45
+P0068,"Frontier Retail 265",Enterprise,"US East",Implementation,"Time and Materials",2023-01-01,2023-05-01,Completed,628292.57,358878.05,57010.02,6680.49,205724.01,0.3274,158.2
+P0146,"Atlas Media 193",Mid-Market,"US East",Implementation,"Time and Materials",2024-06-01,2024-09-01,Completed,407065.15,229072.5,39433.74,4750.98,133807.94,0.3287,161.18
+P0175,"Pioneer Health 128",SMB,"US Central",Implementation,"Fixed Price",2025-02-01,2025-06-01,Completed,159328.31,88462.01,16734.36,1319.76,52812.2,0.3315,170.42
+P0208,"Nova Retail 118",Enterprise,"US West",Implementation,"Fixed Price",2023-03-01,2023-08-01,Completed,788480.42,432497.82,83383.85,10193.46,262405.28,0.3328,164.38
+P0059,"Vantage Technology 293",Enterprise,"US Central",Implementation,"Time and Materials",2023-03-01,2023-10-01,Completed,470893.35,262967.48,43924.48,6470.67,157530.73,0.3345,160.7
+P0008,"Evergreen Media 123",Mid-Market,"US West",Implementation,"Time and Materials",2022-11-01,2023-10-01,Completed,412602.09,232634.34,36645.43,4251.57,139070.74,0.3371,159.36
+P0136,"Nova Retail 118",Enterprise,"US West",Implementation,"Fixed Price",2023-09-01,2024-07-01,Completed,680972.68,382930.83,59845.23,7956.31,230240.28,0.3381,160.55
+P0018,"Northstar Technology 188",Mid-Market,"US West",Implementation,"Time and Materials",2022-06-01,2023-02-01,Completed,97226.73,52608.25,9887.72,1645.55,33085.21,0.3403,166.86
+P0095,"Keystone Logistics 099",SMB,"US West",Implementation,"Time and Materials",2025-03-01,2025-09-01,Completed,192447.83,104780.56,19007.12,3002.42,65657.75,0.3412,172.65
+P0135,"Cedar Manufacturing 166",SMB,"US Central",Implementation,"Time and Materials",2024-05-01,2024-10-01,Completed,120815.05,64131.08,13742.6,1534.09,41407.26,0.3427,170.93
+P0041,"BluePeak Logistics 210",SMB,"US West",Implementation,"Fixed Price",2024-04-01,2024-11-01,Completed,140563.38,77697.58,12898.23,1613.92,48353.64,0.344,164.15
+P0150,"Westbridge Insurance 097",Mid-Market,"US East",Implementation,"Fixed Price",2023-01-01,2023-07-01,Completed,439522.24,244362.66,38111.5,5094.58,151953.53,0.3457,162.52
+P0024,"Crescent Mobility 083",SMB,"US East",Implementation,"Fixed Price",2022-09-01,2023-05-01,Completed,46218.4,26140.77,3502.92,532.46,16042.25,0.3471,159.76
+P0017,"Keystone Retail 007",Mid-Market,"US West",Implementation,"Fixed Price",2022-09-01,2023-07-01,Completed,215337.98,117396.04,20407.72,2657.41,74876.81,0.3477,165.75
+P0089,"Stonegate Manufacturing 103",Enterprise,"US Central",Implementation,"Fixed Price",2023-11-01,2024-05-01,Completed,1016441.57,545997.73,96753.36,17326.96,356363.53,0.3506,168.57
+P0144,"BluePeak Retail 084",SMB,"US Central",Implementation,"Time and Materials",2025-06-01,2026-02-01,Completed,189374.64,101775.11,18680.75,2242.06,66676.72,0.3521,175.15
+P0004,"Evergreen Media 225",Enterprise,"US Central",Implementation,"Time and Materials",2022-12-01,2023-08-01,Completed,272380.24,152744.13,19254.2,3802.39,96579.54,0.3546,160.67
+P0005,"Highland Media 298",Mid-Market,Canada,Implementation,"Fixed Price",2022-10-01,2023-08-01,Completed,354281.85,192395.31,31509.87,3565.01,126811.64,0.3579,166.2
+P0214,"Meridian Retail 229",Enterprise,"US East",Implementation,"Time and Materials",2026-06-01,2026-09-01,"In Progress",194621.16,107809.74,15391.87,1303.22,70116.33,0.3603,173.82
+P0102,"Frontier Technology 296",Mid-Market,"US Central",Implementation,"Fixed Price",2026-02-01,2026-12-01,"In Progress",215197.5,118859.47,16058.23,2591.2,77688.6,0.361,174.19
+P0099,"Lakeview Education 004",Enterprise,"US East",Implementation,"Time and Materials",2024-11-01,2025-03-01,Completed,822062.72,435192.39,75796.17,13691.09,297383.05,0.3618,177.59
+P0066,"Highland Manufacturing 106",Enterprise,"US East",Implementation,"Fixed Price",2024-01-01,2024-11-01,Completed,1044512.85,557287.88,91143.09,16249.59,379832.28,0.3636,170.18
+P0154,"Silverline Health 275",Mid-Market,"US East",Implementation,"Time and Materials",2024-03-01,2024-12-01,Completed,347707.13,187983.4,27505.91,4643.33,127574.49,0.3669,168.38
+P0091,"BrightPath Financial 074",Mid-Market,Canada,Optimization,"Time and Materials",2023-04-01,2023-09-01,Completed,203960.42,112391.87,13765.03,2393.53,75409.98,0.3697,162.74
+P0171,"Northstar Technology 028",Enterprise,"US East",Implementation,"Fixed Price",2025-03-01,2025-12-01,Completed,1211668.32,647229.06,105156.84,10479.7,448802.72,0.3704,175.71
+P0009,"Stonegate Manufacturing 103",Enterprise,"US Central",Implementation,"Time and Materials",2022-06-01,2023-04-01,Completed,308303.14,160552.54,30349.54,3015.17,114385.9,0.371,173.46
+P0110,"Keystone Retail 007",Mid-Market,"US West",Implementation,"Fixed Price",2023-09-01,2024-04-01,Completed,453331.99,230959.59,45454.71,5787.01,171130.67,0.3775,176.5
+P0152,"Harbor Energy 214",Mid-Market,"US West",Implementation,"Fixed Price",2026-05-01,2027-01-01,"In Progress",51324.25,27716.27,3758.42,340.57,19508.98,0.3801,177.78
+P0064,"Crescent Logistics 120",Enterprise,Canada,Implementation,"Time and Materials",2023-12-01,2024-06-01,Completed,1519144.52,770464.2,139524.49,27686.71,581469.1,0.3828,178.62
+P0149,"Lakeview Health 179",Enterprise,Canada,Implementation,"Time and Materials",2026-05-01,2027-01-01,"In Progress",248463.75,125433.46,26375.93,942.48,95711.87,0.3852,189.93
+P0069,"Oakridge Media 185",SMB,"US West",Implementation,"Fixed Price",2024-01-01,2024-10-01,Completed,225032.16,111011.72,23533.81,2987.84,87498.82,0.3888,184.0
+P0180,"Vantage Retail 211",Enterprise,Canada,Implementation,"Time and Materials",2026-05-01,2027-01-01,"In Progress",198671.97,99947.64,19157.01,2303.77,77263.55,0.3889,190.57
+P0012,"Meridian Logistics 153",SMB,"US East",Implementation,"Fixed Price",2022-09-01,2023-02-01,Completed,33812.88,16723.76,3401.51,491.9,13195.7,0.3903,182.57
+P0045,"Stonegate Health 171",Mid-Market,"US East",Implementation,"Time and Materials",2026-05-01,2026-12-01,"In Progress",138917.57,69830.71,13534.91,1319.18,54232.75,0.3904,190.77
+P0092,"Northstar Energy 026",SMB,"US East",Optimization,"Time and Materials",2025-05-01,2025-07-01,Completed,111383.87,60194.35,6542.83,1112.9,43533.78,0.3908,174.09
+P0010,"Keystone Energy 249",Enterprise,"US Central",Implementation,"Time and Materials",2022-11-01,2023-04-01,Completed,527276.17,270803.39,45238.42,4548.23,206686.15,0.392,175.89
+P0106,"BluePeak Energy 087",Mid-Market,"US Central",Implementation,"Fixed Price",2024-03-01,2024-08-01,Completed,458251.88,240641.25,32826.93,4961.98,179821.72,0.3924,172.54
+P0187,"Frontier Insurance 299",SMB,Canada,Implementation,"Time and Materials",2024-05-01,2025-03-01,Completed,212083.11,111666.11,14448.89,2656.92,83311.17,0.3928,174.58
+P0011,"Pioneer Financial 266",Enterprise,"US East",Implementation,"Time and Materials",2022-11-01,2023-06-01,Completed,663743.0,332762.44,62237.48,7881.53,260861.54,0.393,180.24
+P0182,"Redwood Foods 139",Mid-Market,"US Central",Implementation,"Time and Materials",2023-11-01,2024-06-01,Completed,552950.18,271257.18,56410.95,7522.91,217759.14,0.3938,184.18
+P0090,"Atlas Financial 154",Mid-Market,Canada,Implementation,"Time and Materials",2026-04-01,2027-01-01,"In Progress",228900.46,117697.57,16146.33,4135.87,90920.69,0.3972,187.33
+P0072,"Highland Technology 276",SMB,"US East",Implementation,"Time and Materials",2024-12-01,2025-11-01,Completed,82676.78,40717.39,7686.52,1327.9,32944.97,0.3985,191.07
+P0073,"Lakeview Manufacturing 029",Mid-Market,Canada,Implementation,"Fixed Price",2024-08-01,2025-07-01,Completed,546853.57,273882.95,46747.64,7272.0,218951.01,0.4004,187.05
+P0211,"Atlas Retail 107",SMB,"US Central",Implementation,"Time and Materials",2023-12-01,2024-08-01,Completed,232068.45,117821.29,18732.57,2300.29,93214.3,0.4017,178.35
+P0141,"Frontier Manufacturing 044",SMB,"US West",Implementation,"Time and Materials",2025-05-01,2025-08-01,Completed,177032.43,84932.02,18171.4,2440.48,71488.52,0.4038,195.66
+P0054,"BrightPath Financial 074",Mid-Market,Canada,Implementation,"Time and Materials",2023-11-01,2024-04-01,Completed,589241.02,296052.91,48816.67,5700.91,238670.53,0.405,179.66
+P0162,"Meridian Technology 014",SMB,"US East",Implementation,"Time and Materials",2023-01-01,2023-10-01,Completed,265693.16,134388.22,20583.93,3123.03,107597.97,0.405,177.66
+P0172,"Summit Retail 230",Mid-Market,"US East",Implementation,"Time and Materials",2024-08-01,2024-12-01,Completed,713637.23,347810.19,68240.16,8482.03,289104.85,0.4051,187.57
+P0209,"Clearwater Education 224",SMB,"US West",Implementation,"Time and Materials",2024-08-01,2025-07-01,Completed,249682.31,120857.83,25824.4,1775.68,101224.41,0.4054,192.82
+P0207,"Stonegate Insurance 071",Enterprise,"US West",Implementation,"Time and Materials",2023-07-01,2024-02-01,Completed,694330.91,347927.59,56270.02,7521.31,282612.01,0.407,178.63
+P0199,"Vantage Foods 292",Mid-Market,Canada,Implementation,"Time and Materials",2024-07-01,2025-01-01,Completed,205357.28,95470.02,23880.55,2097.75,83908.96,0.4086,197.21
+P0076,"Vantage Health 216",Mid-Market,Canada,Implementation,"Time and Materials",2024-04-01,2025-03-01,Completed,382241.95,188901.41,31226.33,5715.23,156398.98,0.4092,185.96
+P0039,"Lakeview Energy 191",SMB,"US Central",Optimization,"Time and Materials",2025-04-01,2025-06-01,Completed,70953.09,35972.26,5225.29,685.01,29070.52,0.4097,185.94
+P0098,"Harbor Financial 050",SMB,Canada,Optimization,"Time and Materials",2025-06-01,2025-08-01,Completed,123002.02,61151.2,9203.54,1825.47,50821.81,0.4132,188.6
+P0070,"Evergreen Energy 156",Mid-Market,"US East",Implementation,"Time and Materials",2025-03-01,2025-10-01,Completed,471635.7,233205.02,36551.57,5889.48,195989.63,0.4156,190.16
+P0047,"Cedar Insurance 018",SMB,"US West",Implementation,"Time and Materials",2026-02-01,2026-08-01,"In Progress",179889.16,85573.85,15772.47,3307.82,75235.02,0.4182,202.26
+P0174,"Highland Manufacturing 015",SMB,"US East",Implementation,"Time and Materials",2023-10-01,2024-08-01,Completed,169952.52,80474.5,16570.34,1690.48,71217.24,0.419,190.66
+P0177,"Atlas Financial 066",SMB,Canada,Implementation,"Time and Materials",2026-06-01,2027-05-01,"In Progress",13800.05,7033.34,920.68,51.88,5794.16,0.4199,189.04
+P0210,"Meridian Manufacturing 300",Enterprise,"US Central",Implementation,"Fixed Price",2024-08-01,2025-02-01,Completed,700020.13,333049.21,65773.9,6927.73,294269.32,0.4204,193.82
+P0218,"Redwood Foods 268",Enterprise,"US West",Implementation,"Time and Materials",2025-10-01,2026-05-01,Completed,836282.33,394883.21,75718.28,10360.24,355320.58,0.4249,201.99
+P0026,"Northstar Health 063",Mid-Market,"US Central",Optimization,"Fixed Price",2022-11-01,2023-03-01,Completed,93019.86,44231.24,7880.7,1028.92,39879.0,0.4287,190.03
+P0077,"Nova Logistics 294",Enterprise,"US East",Optimization,"Time and Materials",2023-07-01,2023-11-01,Completed,328244.42,167805.76,14709.86,4984.49,140744.28,0.4288,174.37
+P0155,"Oakridge Energy 060",Mid-Market,"US West",Implementation,"Time and Materials",2024-05-01,2025-03-01,Completed,348971.67,163318.3,31849.96,3933.82,149869.58,0.4295,196.49
+P0115,"Nova Foods 040",Mid-Market,"US West",Implementation,"Time and Materials",2025-08-01,2026-07-01,"In Progress",534127.81,239215.49,56680.13,7985.8,230246.4,0.4311,212.03
+P0159,"Beacon Technology 295",Enterprise,"US East",Implementation,"Time and Materials",2023-09-01,2024-07-01,Completed,1040717.37,478465.77,103804.2,9815.44,448631.99,0.4311,195.91
+P0132,"BrightPath Education 174",Enterprise,"US West",Implementation,"Fixed Price",2023-02-01,2023-06-01,Completed,535145.82,257866.93,40428.4,5938.5,230912.01,0.4315,187.51
+P0112,"Evergreen Media 123",Mid-Market,"US West",Implementation,"Time and Materials",2025-07-01,2026-06-01,Completed,577724.14,279923.17,39441.61,8822.58,249536.78,0.4319,195.89
+P0157,"Crescent Mobility 083",SMB,"US East",Implementation,"Time and Materials",2026-04-01,2026-08-01,"In Progress",87648.75,40398.84,8007.08,1339.59,37903.24,0.4324,208.89
+P0046,"BluePeak Logistics 210",SMB,"US West",Implementation,"Fixed Price",2025-01-01,2025-05-01,Completed,167411.83,79219.45,12708.91,2951.95,72531.53,0.4333,200.71
+P0140,"Highland Mobility 011",SMB,"US West",Implementation,"Time and Materials",2026-03-01,2026-11-01,"In Progress",54140.67,24187.29,5721.95,671.65,23559.81,0.4352,215.53
+P0203,"Keystone Logistics 099",SMB,"US West",Implementation,"Fixed Price",2025-12-01,2026-04-01,Completed,250914.95,114468.21,24091.76,2528.87,109826.11,0.4377,209.88
+P0105,"Oakridge Manufacturing 081",SMB,"US West",Optimization,"Fixed Price",2024-03-01,2024-08-01,Completed,104934.24,52920.17,4760.56,1253.3,46000.21,0.4384,179.62
+P0029,"Evergreen Foods 267",SMB,"US East","Managed Services","Fixed Price",2022-09-01,2023-11-01,Completed,32057.87,16657.31,998.45,341.18,14060.95,0.4386,172.63
+P0143,"Frontier Health 297",Mid-Market,"US East",Optimization,"Time and Materials",2025-03-01,2025-09-01,Completed,110824.31,52731.16,8064.86,1184.47,48843.81,0.4407,197.62
+P0116,"Westbridge Logistics 264",Mid-Market,"US West",Optimization,"Fixed Price",2026-05-01,2026-11-01,"In Progress",74317.2,34775.94,5588.49,1165.27,32787.49,0.4412,205.18
+P0181,"Cedar Insurance 176",Mid-Market,Canada,Implementation,"Fixed Price",2024-09-01,2025-03-01,Completed,398264.49,182501.47,35212.31,4321.39,176229.34,0.4425,203.06
+P0156,"Meridian Retail 205",Mid-Market,"US East",Implementation,"Time and Materials",2024-11-01,2025-06-01,Completed,563912.56,255703.57,50431.43,7665.65,250111.9,0.4435,207.51
+P0094,"Meridian Technology 057",Mid-Market,"US West","Managed Services","Fixed Price",2025-03-01,2025-11-01,Completed,218088.04,112448.04,5775.26,2176.06,97688.66,0.4479,182.32
+P0065,"BluePeak Mobility 246",SMB,"US East",Optimization,"Fixed Price",2026-03-01,2026-09-01,"In Progress",79845.88,37621.67,5172.22,1246.27,35805.71,0.4484,204.21
+P0173,"Highland Foods 117",Mid-Market,"US West",Optimization,"Time and Materials",2024-03-01,2024-06-01,Completed,215686.34,100199.13,16303.16,2153.37,97030.69,0.4499,195.58
+P0176,"BrightPath Mobility 143",SMB,"US East","Managed Services","Fixed Price",2023-09-01,2025-02-01,Completed,84883.33,43182.05,2507.94,996.83,38196.59,0.45,178.85
+P0113,"Evergreen Foods 267",SMB,"US East",Optimization,"Time and Materials",2025-04-01,2025-06-01,Completed,105678.73,54163.43,2898.33,791.22,47825.76,0.4526,183.98
+P0124,"Westbridge Energy 072",Enterprise,Canada,Optimization,"Fixed Price",2024-03-01,2024-04-01,Completed,411500.34,183870.87,33688.95,7598.3,186342.23,0.4528,204.22
+P0161,"Silverline Health 275",Mid-Market,"US East",Optimization,"Fixed Price",2025-01-01,2025-07-01,Completed,205458.95,91798.01,15910.94,4513.84,93236.13,0.4538,211.75
+P0021,"Silverline Health 275",Mid-Market,"US East",Optimization,"Time and Materials",2022-07-01,2023-01-01,Completed,16305.54,7046.03,1572.06,239.43,7448.03,0.4568,209.05
+P0164,"BrightPath Education 174",Enterprise,"US West",Implementation,"Fixed Price",2024-01-01,2024-11-01,Completed,550483.7,247578.67,44603.5,6636.86,251664.67,0.4572,201.89
+P0183,"Northstar Technology 028",Enterprise,"US East",Implementation,"Time and Materials",2025-10-01,2026-03-01,Completed,925191.91,384870.2,107870.24,8476.55,423974.94,0.4583,228.04
+P0167,"Highland Mobility 011",SMB,"US West",Implementation,"Time and Materials",2023-06-01,2024-03-01,Completed,248271.32,111688.59,18895.61,3730.07,113957.02,0.459,199.43
+P0138,"BluePeak Education 127",Mid-Market,"US East",Implementation,"Time and Materials",2026-02-01,2026-10-01,"In Progress",246560.95,104407.9,25719.22,3055.62,113378.21,0.4598,227.2
+P0086,"Frontier Health 297",Mid-Market,"US East",Optimization,"Time and Materials",2024-08-01,2025-02-01,Completed,197730.29,94352.21,9609.36,2777.17,90991.54,0.4602,193.83
+P0191,"Nova Foods 198",Enterprise,Canada,Implementation,"Time and Materials",2023-12-01,2024-11-01,Completed,834689.67,358485.46,76772.98,11853.84,387577.37,0.4643,211.29
+P0178,"Northstar Technology 028",Enterprise,"US East",Optimization,"Time and Materials",2026-04-01,2026-05-01,Completed,654419.07,290319.71,53172.31,6784.03,304143.02,0.4648,217.08
+P0020,"Cedar Foods 055",SMB,"US West",Optimization,"Fixed Price",2022-10-01,2023-02-01,Completed,24718.28,11578.18,1334.6,303.9,11501.59,0.4653,192.81
+P0201,"Crescent Technology 094",Enterprise,"US West",Implementation,"Time and Materials",2025-11-01,2026-07-01,"In Progress",1254248.03,564772.93,85839.82,17492.01,586143.28,0.4673,212.23
+P0179,"Meridian Foods 010",SMB,Canada,Implementation,"Fixed Price",2024-08-01,2025-05-01,Completed,243763.47,105828.16,21251.27,2758.7,113925.32,0.4674,214.98
+P0163,"Northstar Technology 028",Enterprise,"US East",Optimization,"Fixed Price",2025-03-01,2025-04-01,Completed,425918.02,198032.69,23210.94,4149.4,200524.98,0.4708,203.81
+P0055,"Silverline Energy 124",SMB,"US Central",Optimization,"Time and Materials",2024-02-01,2024-07-01,Completed,142721.49,62805.23,10733.44,1752.98,67429.84,0.4725,206.13
+P0058,"Crescent Logistics 247",Enterprise,"US West",Optimization,"Time and Materials",2023-11-01,2023-12-01,Completed,593901.31,269443.29,34303.7,8174.87,281979.45,0.4748,195.35
+P0051,"Highland Retail 252",SMB,"US West",Implementation,"Time and Materials",2024-12-01,2025-05-01,Completed,189243.38,81215.68,15260.18,2370.62,90396.9,0.4777,220.43
+P0109,"Nova Insurance 132",Mid-Market,Canada,Optimization,"Time and Materials",2023-12-01,2024-01-01,Completed,252626.13,113914.01,16046.13,1307.2,121358.78,0.4804,199.36
+P0197,"BrightPath Retail 234",Mid-Market,"US Central",Implementation,"Time and Materials",2024-08-01,2025-02-01,Completed,555298.44,234456.58,45408.16,8588.22,266845.49,0.4805,218.99
+P0107,"Keystone Logistics 099",SMB,"US West",Optimization,"Fixed Price",2025-06-01,2025-10-01,Completed,97694.17,44894.76,4473.59,1279.21,47046.62,0.4816,203.66
+P0120,"Lakeview Financial 212",SMB,"US Central",Implementation,"Time and Materials",2024-03-01,2024-07-01,Completed,79303.81,32802.51,7324.51,823.04,38353.75,0.4836,219.31
+P0108,"Vantage Foods 292",Mid-Market,Canada,Implementation,"Time and Materials",2024-10-01,2025-03-01,Completed,373847.85,158231.47,30498.21,3866.82,181251.35,0.4848,220.79
+P0123,"Highland Manufacturing 106",Enterprise,"US East",Implementation,"Fixed Price",2025-09-01,2025-12-01,Completed,1312180.46,581674.72,81395.69,12501.57,636608.48,0.4852,211.23
+P0198,"Evergreen Media 289",Mid-Market,Canada,Optimization,"Fixed Price",2024-01-01,2024-03-01,Completed,184165.36,80957.1,10487.38,2842.18,89878.7,0.488,207.11
+P0213,"BluePeak Logistics 184",Mid-Market,Canada,Training,"Fixed Price",2023-08-01,2023-09-01,Completed,41290.46,19348.55,878.46,908.4,20155.07,0.4881,189.23
+P0122,"Lakeview Energy 191",SMB,"US Central",Optimization,"Fixed Price",2025-03-01,2025-06-01,Completed,111549.3,48188.22,7163.2,1316.05,54881.84,0.492,218.51
+P0206,"Crescent Technology 285",Mid-Market,"US Central",Optimization,"Time and Materials",2025-06-01,2025-10-01,Completed,312236.05,135549.89,18946.83,4022.32,153716.99,0.4923,215.86
+P0215,"Frontier Technology 296",Mid-Market,"US Central",Optimization,"Time and Materials",2025-06-01,2025-08-01,Completed,331366.54,148755.27,14373.11,4906.36,163331.79,0.4929,208.93
+P0185,"Oakridge Mobility 213",Mid-Market,"US West",Implementation,"Time and Materials",2025-11-01,2026-08-01,"In Progress",420049.9,166232.8,42466.98,3811.51,207538.59,0.4941,241.49
+P0118,"BrightPath Retail 282",Mid-Market,"US West","Managed Services","Fixed Price",2023-08-01,2024-01-01,Completed,320258.8,146801.28,10113.98,3172.91,160170.64,0.5001,194.47
+P0220,"Silverline Education 169",Enterprise,"US East","Managed Services","Fixed Price",2025-11-01,2026-05-01,Completed,572847.65,260340.51,18209.42,7226.92,287070.8,0.5011,209.96
+P0200,"BluePeak Education 100",SMB,"US West",Optimization,"Time and Materials",2026-04-01,2026-10-01,"In Progress",59626.45,26359.4,2869.57,301.48,30095.98,0.5047,218.01
+P0188,"Lakeview Retail 006",Mid-Market,"US West",Optimization,"Time and Materials",2025-03-01,2025-05-01,Completed,268576.91,117905.23,10768.73,3630.37,136272.58,0.5074,215.29
+P0145,"Highland Manufacturing 015",SMB,"US East",Implementation,"Fixed Price",2023-03-01,2023-06-01,Completed,107271.74,41272.81,10108.96,1435.8,54454.19,0.5076,234.83
+P0014,"Crescent Insurance 104",SMB,"US East",Optimization,"Time and Materials",2022-10-01,2023-04-01,Completed,32589.39,13120.95,2484.22,385.35,16598.87,0.5093,224.44
+P0131,"Nova Logistics 294",Enterprise,"US East",Optimization,"Time and Materials",2025-09-01,2025-11-01,Completed,603285.11,254281.13,37006.81,4755.3,307241.88,0.5093,222.11
+P0027,"Stonegate Logistics 065",SMB,"US West",Optimization,"Time and Materials",2022-11-01,2023-03-01,Completed,45723.96,19732.73,2200.2,496.91,23294.12,0.5095,209.45
+P0022,"Highland Technology 276",SMB,"US East","Managed Services","Fixed Price",2022-09-01,2023-08-01,Completed,31200.45,14031.24,846.79,418.15,15904.25,0.5097,200.52
+P0061,"Meridian Retail 229",Enterprise,"US East",Optimization,"Time and Materials",2023-10-01,2023-12-01,Completed,380565.25,151526.5,27593.14,7385.71,194059.9,0.5099,223.18
+P0147,"Cedar Financial 049",Mid-Market,Canada,Optimization,"Time and Materials",2023-12-01,2024-04-01,Completed,156216.26,66101.41,8097.9,2047.2,79969.77,0.5119,214.26
+P0040,"Keystone Retail 007",Mid-Market,"US West",Optimization,"Fixed Price",2025-06-01,2025-12-01,Completed,175258.04,71486.33,11434.55,2513.35,89823.83,0.5125,229.43
+P0160,"Summit Education 182",Mid-Market,"US West",Optimization,"Time and Materials",2026-01-01,2026-03-01,Completed,312720.73,127976.12,19921.07,4469.96,160353.59,0.5128,234.14
+P0125,"Evergreen Energy 190",Enterprise,"US Central",Implementation,"Time and Materials",2025-08-01,2025-11-01,Completed,952635.45,399596.03,48928.04,12959.2,491152.18,0.5156,222.78
+P0217,"BluePeak Education 100",SMB,"US West","Managed Services","Fixed Price",2023-08-01,2025-01-01,Completed,79083.75,35528.87,1663.84,1021.15,40869.9,0.5168,201.69
+P0067,"Meridian Manufacturing 300",Enterprise,"US Central",Optimization,"Time and Materials",2025-09-01,2026-02-01,Completed,563982.9,235232.14,30237.89,6641.14,291871.74,0.5175,226.2
+P0186,"Pioneer Financial 266",Enterprise,"US East",Training,"Fixed Price",2023-06-01,2023-07-01,Completed,114975.4,47241.88,5488.04,2529.46,59716.02,0.5194,219.88
+P0043,"Crescent Mobility 083",SMB,"US East","Managed Services","Fixed Price",2026-04-01,2026-09-01,"In Progress",66109.93,28447.54,2142.71,896.74,34622.94,0.5237,223.87
+P0158,"Stonegate Insurance 071",Enterprise,"US West","Managed Services","Fixed Price",2026-04-01,2027-05-01,"In Progress",64898.78,27956.29,2264.55,623.83,34054.1,0.5247,223.63
+P0037,"Ironwood Mobility 244",SMB,"US East",Implementation,"Time and Materials",2024-09-01,2025-02-01,Completed,210521.97,81394.37,16336.35,2313.86,110477.39,0.5248,239.99
+P0053,"Evergreen Education 274",SMB,"US East",Optimization,"Time and Materials",2024-10-01,2025-01-01,Completed,99201.01,39456.59,5867.71,1149.62,52727.11,0.5315,232.27
+P0074,"Ironwood Media 003",SMB,"US Central",Training,"Fixed Price",2024-09-01,2024-09-01,Completed,23243.96,9097.1,1267.71,511.37,12367.79,0.5321,233.84
+P0139,"Atlas Foods 122",Mid-Market,"US West","Managed Services","Time and Materials",2024-09-01,2025-09-01,Completed,273153.65,115316.14,7409.84,3502.94,146924.76,0.5379,221.54
+P0190,"Lakeview Energy 082",SMB,"US West",Optimization,"Time and Materials",2024-02-01,2024-08-01,Completed,92218.07,36541.49,5382.37,664.25,49629.97,0.5382,228.89
+P0168,"Cedar Health 203",Mid-Market,"US East",Training,"Fixed Price",2025-05-01,2025-05-01,Completed,68585.88,29252.63,872.89,1508.89,36951.47,0.5388,220.75
+P0148,"Summit Energy 223",Enterprise,Canada,Implementation,"Time and Materials",2024-11-01,2025-02-01,Completed,1187080.24,437006.43,92433.84,16684.71,640955.26,0.5399,254.66
+P0169,"Silverline Mobility 217",Enterprise,Canada,Optimization,"Time and Materials",2023-01-01,2023-04-01,Completed,403663.93,159454.98,21190.19,4110.34,218908.41,0.5423,228.67
+P0078,"Atlas Financial 066",SMB,Canada,"Managed Services","Fixed Price",2026-03-01,2027-03-01,"In Progress",64391.42,26668.41,2113.16,659.68,34950.18,0.5428,232.38
+P0127,"BluePeak Financial 278",Enterprise,"US Central",Optimization,"Fixed Price",2025-03-01,2025-04-01,Completed,378656.9,146402.43,20502.96,6142.43,205609.07,0.543,245.09
+P0137,"BrightPath Foods 020",Mid-Market,"US West",Optimization,"Time and Materials",2025-10-01,2026-02-01,Completed,130676.69,49411.23,8532.39,1736.78,70996.3,0.5433,249.96
+P0056,"Redwood Insurance 045",Mid-Market,"US West",Optimization,"Time and Materials",2026-05-01,2026-09-01,"In Progress",53748.42,21903.44,2451.09,126.38,29267.5,0.5445,235.22
+P0079,"BrightPath Technology 095",Mid-Market,"US East",Training,"Fixed Price",2025-08-01,2025-08-01,Completed,28732.23,11061.88,1340.41,632.11,15697.82,0.5463,241.85
+P0121,"Meridian Mobility 133",Mid-Market,"US Central","Managed Services","Time and Materials",2024-06-01,2024-12-01,Completed,405237.95,164270.04,13362.05,5122.97,222482.89,0.549,224.66
+P0071,"Cedar Health 203",Mid-Market,"US East",Optimization,"Time and Materials",2023-05-01,2023-06-01,Completed,139597.64,54959.22,7580.49,279.19,76778.73,0.55,229.64
+P0019,"Highland Insurance 037",Enterprise,"US East","Managed Services","Fixed Price",2022-11-01,2023-07-01,Completed,299134.77,123290.24,7458.15,3586.91,164799.47,0.5509,219.23
+P0096,"Frontier Retail 265",Enterprise,"US East",Optimization,"Time and Materials",2024-10-01,2025-03-01,Completed,483683.23,179053.09,33548.77,4507.44,266573.93,0.5511,252.13
+P0194,"Westbridge Energy 034",Mid-Market,"US East",Optimization,"Time and Materials",2025-11-01,2026-03-01,Completed,396456.57,147486.23,24202.29,5997.33,218770.72,0.5518,255.65
+P0129,"Meridian Retail 205",Mid-Market,"US East",Optimization,"Fixed Price",2025-07-01,2025-12-01,Completed,237924.48,87872.93,15319.33,2228.38,132503.87,0.5569,253.27
+P0007,"Frontier Health 297",Mid-Market,"US East","Managed Services","Time and Materials",2022-11-01,2023-05-01,Completed,199681.04,83580.26,3318.05,1403.08,111379.64,0.5578,215.85
+P0153,"Highland Health 112",Mid-Market,"US East",Optimization,"Time and Materials",2025-06-01,2025-11-01,Completed,280377.57,106871.33,13529.18,3394.73,156582.34,0.5585,245.82
+P0038,"Silverline Mobility 228",Mid-Market,"US West","Managed Services","Time and Materials",2026-04-01,2027-06-01,"In Progress",64352.43,24907.98,2570.63,599.49,36274.35,0.5637,248.85
+P0033,"Oakridge Media 185",SMB,"US West","Managed Services","Time and Materials",2025-03-01,2026-06-01,Completed,103656.32,41640.88,2240.12,1320.68,58454.67,0.5639,235.9
+P0165,"BluePeak Logistics 238",Mid-Market,"US East",Optimization,"Time and Materials",2024-10-01,2025-02-01,Completed,339765.41,119383.19,24443.96,4295.31,191642.96,0.564,265.07
+P0042,"BluePeak Mobility 246",SMB,"US East","Managed Services","Time and Materials",2025-08-01,2026-08-01,"In Progress",138295.51,55488.22,3154.13,1611.76,78041.35,0.5643,236.81
+P0093,"Harbor Education 204",Enterprise,"US West",Optimization,"Time and Materials",2023-04-01,2023-06-01,Completed,415031.54,153159.65,21917.54,5593.77,234360.58,0.5647,244.65
+P0103,"Silverline Retail 222",Mid-Market,"US East",Optimization,"Fixed Price",2025-01-01,2025-03-01,Completed,343786.0,122698.8,23619.46,3305.31,194162.43,0.5648,267.95
+P0151,"Highland Insurance 037",Enterprise,"US East","Managed Services","Fixed Price",2023-01-01,2024-01-01,Completed,659193.54,259477.06,18340.93,8145.13,373230.41,0.5662,227.97
+P0202,"BluePeak Retail 084",SMB,"US Central",Training,"Fixed Price",2023-04-01,2023-05-01,Completed,24289.66,9658.15,309.83,534.38,13787.29,0.5676,227.01
+P0080,"Pioneer Foods 151",Enterprise,"US Central","Managed Services","Fixed Price",2026-02-01,2027-05-01,"In Progress",183111.64,68683.47,6596.2,2643.76,105188.19,0.5744,256.46
+P0084,"Nova Insurance 250",SMB,Canada,"Managed Services","Time and Materials",2026-03-01,2027-06-01,"In Progress",41187.1,15799.2,1198.9,509.6,23679.41,0.5749,250.99
+P0111,"Lakeview Financial 212",SMB,"US Central",Training,"Fixed Price",2024-10-01,2024-11-01,Completed,23658.88,9178.73,351.66,520.5,13607.99,0.5752,235.18
+P0219,"Highland Insurance 037",Enterprise,"US East","Managed Services","Time and Materials",2026-01-01,2027-03-01,"In Progress",278021.42,105824.38,7812.83,4198.99,160185.23,0.5762,252.45
+P0044,"Westbridge Manufacturing 215",Enterprise,"US Central",Optimization,"Time and Materials",2024-12-01,2025-02-01,Completed,752121.4,266482.9,40515.37,11579.42,433543.69,0.5764,267.46
+P0104,"Clearwater Insurance 113",SMB,"US East","Managed Services","Time and Materials",2023-02-01,2023-10-01,Completed,52745.39,20366.09,1292.71,621.13,30465.5,0.5776,232.46
+P0189,"Vantage Technology 207",Mid-Market,"US West",Training,"Fixed Price",2025-08-01,2025-08-01,Completed,84343.58,30976.23,2573.19,1855.56,48938.6,0.5802,253.44
+P0060,"Pioneer Media 241",Mid-Market,"US West","Managed Services","Time and Materials",2024-10-01,2025-10-01,Completed,400284.81,152642.52,10553.08,4727.77,232361.44,0.5805,245.74
+P0216,"Summit Financial 181",Mid-Market,"US West",Optimization,"Time and Materials",2025-11-01,2026-03-01,Completed,211394.46,73667.52,12254.66,2315.29,123156.98,0.5826,272.66
+P0087,"Stonegate Logistics 005",Mid-Market,Canada,"Managed Services","Time and Materials",2024-10-01,2026-03-01,Completed,427185.95,162708.91,8640.36,5816.8,250019.85,0.5853,246.97
+P0126,"BluePeak Logistics 238",Mid-Market,"US East","Managed Services","Time and Materials",2025-04-01,2025-11-01,Completed,535480.59,199726.06,16799.58,5529.53,313425.43,0.5853,251.79
+P0170,"Highland Manufacturing 015",SMB,"US East",Training,"Fixed Price",2024-09-01,2024-10-01,Completed,10675.52,3855.96,252.6,234.86,6332.08,0.5931,252.97
+P0212,"Atlas Media 193",Mid-Market,"US East",Optimization,"Time and Materials",2025-11-01,2026-02-01,Completed,154533.41,48374.52,12299.23,1312.02,92547.64,0.5989,302.53
+P0196,"Lakeview Energy 082",SMB,"US West","Managed Services","Time and Materials",2023-03-01,2024-04-01,Completed,60250.99,21702.63,1573.74,839.32,36135.29,0.5997,249.8
+P0133,"Evergreen Energy 190",Enterprise,"US Central",Training,"Fixed Price",2024-06-01,2024-06-01,Completed,134712.4,48278.86,2627.24,2963.67,80842.63,0.6001,252.93
+P0062,"Meridian Logistics 152",Mid-Market,"US West",Training,"Fixed Price",2026-01-01,2026-02-01,Completed,58820.88,19399.24,2412.92,1294.06,35714.64,0.6072,290.04
+P0050,"Redwood Mobility 114",Enterprise,Canada,"Managed Services","Time and Materials",2025-08-01,2026-07-01,"In Progress",671768.95,239980.23,15811.06,6418.95,409558.7,0.6097,266.02
+P0142,"Highland Foods 117",Mid-Market,"US West","Managed Services","Time and Materials",2024-09-01,2025-02-01,Completed,380766.21,128872.71,14882.74,4401.05,232609.71,0.6109,274.13
+P0057,"Cedar Financial 049",Mid-Market,Canada,"Managed Services","Fixed Price",2025-07-01,2026-11-01,"In Progress",278516.87,96299.9,6195.94,3704.02,172316.99,0.6187,274.51
+P0031,"Atlas Retail 107",SMB,"US Central","Managed Services","Time and Materials",2024-12-01,2026-03-01,Completed,63797.2,22061.91,1386.18,647.04,39702.04,0.6223,273.1
+P0052,"Cedar Manufacturing 053",Mid-Market,"US West",Optimization,"Time and Materials",2023-04-01,2023-05-01,Completed,231078.92,79881.6,5176.62,1634.6,144386.12,0.6248,261.11
+P0075,"Clearwater Foods 284",Mid-Market,"US West",Training,"Fixed Price",2024-08-01,2024-09-01,Completed,64314.72,21921.75,537.65,1414.92,40440.4,0.6288,267.31
+P0088,"Summit Retail 270",Enterprise,"US West","Managed Services","Time and Materials",2025-09-01,2026-08-01,"In Progress",448630.55,148819.94,12127.0,5528.11,282155.5,0.6289,286.94
+P0192,"Stonegate Foods 073",Enterprise,"US West",Training,"Fixed Price",2024-02-01,2024-03-01,Completed,113510.88,37583.73,1858.53,2497.24,71571.37,0.6305,275.31
+P0134,"Summit Logistics 035",Enterprise,"US West","Managed Services","Time and Materials",2025-06-01,2026-06-01,Completed,365683.16,118959.8,10106.33,3811.88,232805.15,0.6366,291.64
+P0204,"Silverline Mobility 217",Enterprise,Canada,Training,"Fixed Price",2025-02-01,2025-03-01,Completed,122234.82,36873.9,4603.09,2689.16,78068.66,0.6387,316.34
+P0195,"Lakeview Health 179",Enterprise,Canada,"Managed Services","Time and Materials",2024-11-01,2026-04-01,Completed,571877.48,186669.29,12232.85,6543.68,366431.7,0.6408,289.29
+P0166,"Keystone Logistics 145",Mid-Market,"US Central",Training,"Fixed Price",2023-04-01,2023-04-01,Completed,37926.37,11387.97,1282.12,834.38,24421.9,0.6439,299.81
+P0193,"Northstar Education 158",Mid-Market,"US West","Managed Services","Time and Materials",2025-07-01,2026-05-01,Completed,154546.98,44054.81,3461.26,1756.19,105274.69,0.6812,332.43
+P0114,"BluePeak Energy 087",Mid-Market,"US Central",Training,"Fixed Price",2025-02-01,2025-02-01,Completed,28732.23,7539.27,806.0,632.11,19754.84,0.6875,366.95

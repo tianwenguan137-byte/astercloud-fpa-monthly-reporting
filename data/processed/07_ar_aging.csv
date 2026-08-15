@@ -1,0 +1,92 @@
+invoice_id,customer_id,customer_name,segment,region_name,project_id,invoice_type,issue_date,due_date,invoice_amount_usd,amount_paid_usd,outstanding_usd,invoice_status,days_past_due,aging_bucket,as_of_date
+INV0000534,C0134,"BrightPath Mobility 134",SMB,"US Central","",Subscription,2024-09-01,2024-09-16,19374.69,0.0,19374.69,"Past Due",652,"90+ days",2026-06-30
+INV0000823,C0199,"Clearwater Health 199",SMB,Canada,"",Subscription,2024-11-01,2024-12-01,16324.83,0.0,16324.83,"Past Due",576,"90+ days",2026-06-30
+INV0001562,C0297,"Frontier Health 297",Mid-Market,"US East",P0086,"Professional Services",2025-01-05,2025-02-19,27933.52,0.0,27933.52,"Past Due",496,"90+ days",2026-06-30
+INV0000781,C0187,"Frontier Education 187",SMB,"US West","",Subscription,2025-05-01,2025-05-31,9670.74,0.0,9670.74,"Past Due",395,"90+ days",2026-06-30
+INV0001196,C0285,"Crescent Technology 285",Mid-Market,"US Central","",Subscription,2025-04-01,2025-05-31,19790.94,0.0,19790.94,"Past Due",395,"90+ days",2026-06-30
+INV0001197,C0285,"Crescent Technology 285",Mid-Market,"US Central","",Subscription,2025-07-01,2025-08-30,19790.94,0.0,19790.94,"Past Due",304,"90+ days",2026-06-30
+INV0000755,C0182,"Summit Education 182",Mid-Market,"US West","",Subscription,2025-08-01,2025-09-15,31865.28,0.0,31865.28,"Past Due",288,"90+ days",2026-06-30
+INV0000018,C0005,"Stonegate Logistics 005",Mid-Market,Canada,"",Subscription,2025-11-01,2025-12-01,42584.49,0.0,42584.49,"Past Due",211,"90+ days",2026-06-30
+INV0001827,C0084,"BluePeak Retail 084",SMB,"US Central",P0144,"Professional Services",2026-02-05,2026-03-07,22721.66,0.0,22721.66,"Past Due",115,"90+ days",2026-06-30
+INV0000078,C0020,"BrightPath Foods 020",Mid-Market,"US West","",Subscription,2026-02-01,2026-03-18,37030.53,0.0,37030.53,"Past Due",104,"90+ days",2026-06-30
+INV0000566,C0142,"Redwood Retail 142",SMB,"US West","",Subscription,2026-04-01,2026-05-01,95577.48,0.0,95577.48,"Past Due",60,"31-60 days",2026-06-30
+INV0000829,C0199,"Clearwater Health 199",SMB,Canada,"",Subscription,2026-05-01,2026-05-31,17669.55,0.0,17669.55,"Past Due",30,"1-30 days",2026-06-30
+INV0001200,C0285,"Crescent Technology 285",Mid-Market,"US Central","",Subscription,2026-04-01,2026-05-31,21981.27,0.0,21981.27,"Past Due",30,"1-30 days",2026-06-30
+INV0002009,C0213,"Oakridge Mobility 213",Mid-Market,"US West",P0185,"Professional Services",2026-05-05,2026-06-04,55787.09,0.0,55787.09,"Past Due",26,"1-30 days",2026-06-30
+INV0000367,C0090,"BrightPath Foods 090",Mid-Market,"US East","",Subscription,2026-05-01,2026-06-15,201032.52,0.0,201032.52,"Past Due",15,"1-30 days",2026-06-30
+INV0000476,C0121,"Crescent Foods 121",Mid-Market,"US Central","",Subscription,2026-05-01,2026-06-15,23317.14,0.0,23317.14,"Past Due",15,"1-30 days",2026-06-30
+INV0000870,C0209,"Pioneer Manufacturing 209",Mid-Market,"US West","",Subscription,2026-05-01,2026-06-15,49189.68,0.0,49189.68,"Past Due",15,"1-30 days",2026-06-30
+INV0000541,C0134,"BrightPath Mobility 134",SMB,"US Central","",Subscription,2026-06-01,2026-06-16,20554.62,0.0,20554.62,"Past Due",14,"1-30 days",2026-06-30
+INV0001418,C0049,"Cedar Financial 049",Mid-Market,Canada,P0057,"Professional Services",2026-05-05,2026-06-19,24054.06,0.0,24054.06,"Past Due",11,"1-30 days",2026-06-30
+INV0001700,C0040,"Nova Foods 040",Mid-Market,"US West",P0115,"Professional Services",2026-05-05,2026-06-19,48685.56,0.0,48685.56,"Past Due",11,"1-30 days",2026-06-30
+INV0002198,C0169,"Silverline Education 169",Enterprise,"US East",P0220,"Professional Services",2026-05-05,2026-06-19,87456.24,0.0,87456.24,"Past Due",11,"1-30 days",2026-06-30
+INV0001530,C0066,"Atlas Financial 066",SMB,Canada,P0078,"Professional Services",2026-06-05,2026-06-20,17333.89,0.0,17333.89,"Past Due",10,"1-30 days",2026-06-30
+INV0000149,C0038,"Ironwood Logistics 038",Mid-Market,"US East","",Subscription,2026-05-01,2026-06-30,31527.81,0.0,31527.81,Open,0,Current,2026-06-30
+INV0000359,C0088,"Redwood Manufacturing 088",Enterprise,"US Central","",Subscription,2026-05-01,2026-06-30,420384.48,0.0,420384.48,Open,0,Current,2026-06-30
+INV0001090,C0258,"Frontier Media 258",Mid-Market,"US East","",Subscription,2026-05-01,2026-06-30,22146.39,0.0,22146.39,Open,0,Current,2026-06-30
+INV0000086,C0021,"Atlas Financial 021",Mid-Market,Canada,"",Subscription,2026-06-01,2026-07-01,78306.57,0.0,78306.57,Open,-1,Current,2026-06-30
+INV0000193,C0048,"BluePeak Insurance 048",Mid-Market,"US West","",Subscription,2026-06-01,2026-07-01,43888.29,0.0,43888.29,Open,-1,Current,2026-06-30
+INV0000219,C0053,"Cedar Manufacturing 053",Mid-Market,"US West","",Subscription,2026-06-01,2026-07-01,66224.28,0.0,66224.28,Open,-1,Current,2026-06-30
+INV0000371,C0093,"Ironwood Financial 093",Enterprise,Canada,"",Subscription,2026-06-01,2026-07-01,443695.68,0.0,443695.68,Open,-1,Current,2026-06-30
+INV0000390,C0097,"Westbridge Insurance 097",Mid-Market,"US East","",Subscription,2026-06-01,2026-07-01,59489.94,0.0,59489.94,Open,-1,Current,2026-06-30
+INV0000454,C0113,"Clearwater Insurance 113",SMB,"US East","",Subscription,2026-06-01,2026-07-01,5823.57,0.0,5823.57,Open,-1,Current,2026-06-30
+INV0000491,C0125,"Summit Mobility 125",SMB,"US West","",Subscription,2026-06-01,2026-07-01,5634.93,0.0,5634.93,Open,-1,Current,2026-06-30
+INV0000514,C0129,"BrightPath Insurance 129",SMB,"US West","",Subscription,2026-06-01,2026-07-01,7658.94,0.0,7658.94,Open,-1,Current,2026-06-30
+INV0000532,C0133,"Meridian Mobility 133",Mid-Market,"US Central","",Subscription,2026-06-01,2026-07-01,76943.49,0.0,76943.49,Open,-1,Current,2026-06-30
+INV0000684,C0168,"Crescent Mobility 168",Mid-Market,"US Central","",Subscription,2026-06-01,2026-07-01,55637.91,0.0,55637.91,Open,-1,Current,2026-06-30
+INV0000709,C0172,"Stonegate Manufacturing 172",Mid-Market,Canada,"",Subscription,2026-06-01,2026-07-01,55626.51,0.0,55626.51,Open,-1,Current,2026-06-30
+INV0000779,C0185,"Oakridge Media 185",SMB,"US West","",Subscription,2026-06-01,2026-07-01,13430.1,0.0,13430.1,Open,-1,Current,2026-06-30
+INV0000888,C0213,"Oakridge Mobility 213",Mid-Market,"US West","",Subscription,2026-06-01,2026-07-01,27840.42,0.0,27840.42,Open,-1,Current,2026-06-30
+INV0000925,C0222,"Silverline Retail 222",Mid-Market,"US East","",Subscription,2026-06-01,2026-07-01,53425.95,0.0,53425.95,Open,-1,Current,2026-06-30
+INV0000948,C0226,"Frontier Financial 226",SMB,"US West","",Subscription,2026-06-01,2026-07-01,9186.42,0.0,9186.42,Open,-1,Current,2026-06-30
+INV0000999,C0240,"Evergreen Health 240",SMB,Canada,"",Subscription,2026-06-01,2026-07-01,15732.18,0.0,15732.18,Open,-1,Current,2026-06-30
+INV0001060,C0251,"Ironwood Health 251",SMB,"US Central","",Subscription,2026-06-01,2026-07-01,11030.07,2757.52,8272.55,"Partially Paid",-1,Current,2026-06-30
+INV0001078,C0256,"Westbridge Media 256",Mid-Market,"US West","",Subscription,2026-06-01,2026-07-01,24416.31,0.0,24416.31,Open,-1,Current,2026-06-30
+INV0001256,C0298,"Highland Media 298",Mid-Market,Canada,"",Subscription,2026-06-01,2026-07-01,34310.4,0.0,34310.4,Open,-1,Current,2026-06-30
+INV0001264,C0299,"Frontier Insurance 299",SMB,Canada,"",Subscription,2026-06-01,2026-07-01,9178.95,0.0,9178.95,Open,-1,Current,2026-06-30
+INV0001386,C0114,"Redwood Mobility 114",Enterprise,Canada,P0050,"Professional Services",2026-05-05,2026-07-04,64455.26,0.0,64455.26,Open,-4,Current,2026-06-30
+INV0001590,C0270,"Summit Retail 270",Enterprise,"US West",P0088,"Professional Services",2026-05-05,2026-07-04,49290.18,0.0,49290.18,Open,-4,Current,2026-06-30
+INV0001763,C0035,"Summit Logistics 035",Enterprise,"US West",P0134,"Professional Services",2026-05-05,2026-07-04,31687.92,0.0,31687.92,Open,-4,Current,2026-06-30
+INV0002108,C0094,"Crescent Technology 094",Enterprise,"US West",P0201,"Professional Services",2026-05-05,2026-07-04,150721.24,0.0,150721.24,Open,-4,Current,2026-06-30
+INV0001306,C0185,"Oakridge Media 185",SMB,"US West",P0033,"Professional Services",2026-06-05,2026-07-05,6856.31,0.0,6856.31,Open,-5,Current,2026-06-30
+INV0001327,C0228,"Silverline Mobility 228",Mid-Market,"US West",P0038,"Professional Services",2026-06-05,2026-07-05,21633.04,0.0,21633.04,Open,-5,Current,2026-06-30
+INV0001355,C0246,"BluePeak Mobility 246",SMB,"US East",P0042,"Professional Services",2026-06-05,2026-07-05,13129.73,0.0,13129.73,Open,-5,Current,2026-06-30
+INV0001408,C0045,"Redwood Insurance 045",Mid-Market,"US West",P0056,"Professional Services",2026-06-05,2026-07-05,29016.01,0.0,29016.01,Open,-5,Current,2026-06-30
+INV0001453,C0246,"BluePeak Mobility 246",SMB,"US East",P0065,"Professional Services",2026-06-05,2026-07-05,23433.03,0.0,23433.03,Open,-5,Current,2026-06-30
+INV0001557,C0250,"Nova Insurance 250",SMB,Canada,P0084,"Professional Services",2026-06-05,2026-07-05,10106.81,0.0,10106.81,Open,-5,Current,2026-06-30
+INV0001643,C0296,"Frontier Technology 296",Mid-Market,"US Central",P0102,"Professional Services",2026-06-05,2026-07-05,54146.47,0.0,54146.47,Open,-5,Current,2026-06-30
+INV0001687,C0123,"Evergreen Media 123",Mid-Market,"US West",P0112,"Professional Services",2026-06-05,2026-07-05,50839.05,0.0,50839.05,Open,-5,Current,2026-06-30
+INV0001786,C0127,"BluePeak Education 127",Mid-Market,"US East",P0138,"Professional Services",2026-06-05,2026-07-05,52260.49,0.0,52260.49,Open,-5,Current,2026-06-30
+INV0001982,C0211,"Vantage Retail 211",Enterprise,Canada,P0180,"Professional Services",2026-06-05,2026-07-05,106823.32,0.0,106823.32,Open,-5,Current,2026-06-30
+INV0002010,C0213,"Oakridge Mobility 213",Mid-Market,"US West",P0185,"Professional Services",2026-06-05,2026-07-05,52649.68,0.0,52649.68,Open,-5,Current,2026-06-30
+INV0000066,C0017,"Atlas Mobility 017",Enterprise,"US Central","",Subscription,2026-06-01,2026-07-16,760572.12,0.0,760572.12,Open,-16,Current,2026-06-30
+INV0000089,C0022,"Redwood Foods 022",Mid-Market,"US West","",Subscription,2026-06-01,2026-07-16,132391.56,0.0,132391.56,Open,-16,Current,2026-06-30
+INV0000366,C0089,"Summit Media 089",Mid-Market,"US West","",Subscription,2026-06-01,2026-07-16,29628.96,0.0,29628.96,Open,-16,Current,2026-06-30
+INV0000483,C0122,"Atlas Foods 122",Mid-Market,"US West","",Subscription,2026-06-01,2026-07-16,52922.16,0.0,52922.16,Open,-16,Current,2026-06-30
+INV0000547,C0136,"Oakridge Education 136",Mid-Market,"US Central","",Subscription,2026-06-01,2026-07-16,43346.16,0.0,43346.16,Open,-16,Current,2026-06-30
+INV0000862,C0208,"Meridian Media 208",Mid-Market,"US Central","",Subscription,2026-06-01,2026-07-16,43150.41,0.0,43150.41,Open,-16,Current,2026-06-30
+INV0000896,C0214,"Harbor Energy 214",Mid-Market,"US West","",Subscription,2026-06-01,2026-07-16,72273.3,0.0,72273.3,Open,-16,Current,2026-06-30
+INV0000964,C0230,"Summit Retail 230",Mid-Market,"US East","",Subscription,2026-06-01,2026-07-16,44753.01,0.0,44753.01,Open,-16,Current,2026-06-30
+INV0001026,C0245,"Meridian Logistics 245",Enterprise,"US Central","",Subscription,2026-06-01,2026-07-16,1341510.96,0.0,1341510.96,Open,-16,Current,2026-06-30
+INV0001086,C0257,"Cedar Media 257",Enterprise,"US West","",Subscription,2026-06-01,2026-07-16,200775.03,0.0,200775.03,Open,-16,Current,2026-06-30
+INV0001319,C0149,"Atlas Foods 149",Enterprise,"US West",P0035,"Professional Services",2026-06-05,2026-07-20,60991.72,0.0,60991.72,Open,-20,Current,2026-06-30
+INV0001361,C0171,"Stonegate Health 171",Mid-Market,"US East",P0045,"Professional Services",2026-06-05,2026-07-20,72162.41,0.0,72162.41,Open,-20,Current,2026-06-30
+INV0001419,C0049,"Cedar Financial 049",Mid-Market,Canada,P0057,"Professional Services",2026-06-05,2026-07-20,26816.66,0.0,26816.66,Open,-20,Current,2026-06-30
+INV0001535,C0151,"Pioneer Foods 151",Enterprise,"US Central",P0080,"Professional Services",2026-06-05,2026-07-20,37504.19,0.0,37504.19,Open,-20,Current,2026-06-30
+INV0001598,C0154,"Atlas Financial 154",Mid-Market,Canada,P0090,"Professional Services",2026-06-05,2026-07-20,72344.13,0.0,72344.13,Open,-20,Current,2026-06-30
+INV0001701,C0040,"Nova Foods 040",Mid-Market,"US West",P0115,"Professional Services",2026-06-05,2026-07-20,48986.18,0.0,48986.18,Open,-20,Current,2026-06-30
+INV0001841,C0179,"Lakeview Health 179",Enterprise,Canada,P0149,"Professional Services",2026-06-05,2026-07-20,131582.76,0.0,131582.76,Open,-20,Current,2026-06-30
+INV0001843,C0214,"Harbor Energy 214",Mid-Market,"US West",P0152,"Professional Services",2026-06-05,2026-07-20,19623.98,0.0,19623.98,Open,-20,Current,2026-06-30
+INV0001971,C0028,"Northstar Technology 028",Enterprise,"US East",P0178,"Professional Services",2026-06-05,2026-07-20,339649.9,0.0,339649.9,Open,-20,Current,2026-06-30
+INV0002056,C0158,"Northstar Education 158",Mid-Market,"US West",P0193,"Professional Services",2026-06-05,2026-07-20,16784.71,0.0,16784.71,Open,-20,Current,2026-06-30
+INV0002192,C0037,"Highland Insurance 037",Enterprise,"US East",P0219,"Professional Services",2026-06-05,2026-07-20,45607.47,0.0,45607.47,Open,-20,Current,2026-06-30
+INV0002199,C0169,"Silverline Education 169",Enterprise,"US East",P0220,"Professional Services",2026-06-05,2026-07-20,82426.83,0.0,82426.83,Open,-20,Current,2026-06-30
+INV0000395,C0098,"Highland Financial 098",Enterprise,"US East","",Subscription,2026-06-01,2026-07-31,318001.26,0.0,318001.26,Open,-31,Current,2026-06-30
+INV0000468,C0118,"Nova Retail 118",Enterprise,"US West","",Subscription,2026-06-01,2026-07-31,896177.76,0.0,896177.76,Open,-31,Current,2026-06-30
+INV0000794,C0188,"Northstar Technology 188",Mid-Market,"US West","",Subscription,2026-06-01,2026-07-31,106260.45,0.0,106260.45,Open,-31,Current,2026-06-30
+INV0001186,C0282,"BrightPath Retail 282",Mid-Market,"US West","",Subscription,2026-06-01,2026-07-31,39354.09,0.0,39354.09,Open,-31,Current,2026-06-30
+INV0001387,C0114,"Redwood Mobility 114",Enterprise,Canada,P0050,"Professional Services",2026-06-05,2026-08-04,63075.35,0.0,63075.35,Open,-35,Current,2026-06-30
+INV0001591,C0270,"Summit Retail 270",Enterprise,"US West",P0088,"Professional Services",2026-06-05,2026-08-04,44656.98,0.0,44656.98,Open,-35,Current,2026-06-30
+INV0001764,C0035,"Summit Logistics 035",Enterprise,"US West",P0134,"Professional Services",2026-06-05,2026-08-04,30488.95,0.0,30488.95,Open,-35,Current,2026-06-30
+INV0002109,C0094,"Crescent Technology 094",Enterprise,"US West",P0201,"Professional Services",2026-06-05,2026-08-04,161242.12,0.0,161242.12,Open,-35,Current,2026-06-30
+INV0002187,C0268,"Redwood Foods 268",Enterprise,"US West",P0218,"Professional Services",2026-06-05,2026-08-04,113151.38,0.0,113151.38,Open,-35,Current,2026-06-30
