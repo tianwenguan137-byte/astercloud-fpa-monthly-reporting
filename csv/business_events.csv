@@ -1,0 +1,6 @@
+event_id,event_month,event_name,affected_area,description
+EVT-01,2026-04-01,Enterprise renewal loss,Subscription revenue,Forced full churn for C0225; creates a visible Q2 revenue variance.
+EVT-02,2026-06-01,Second enterprise renewal loss,Subscription revenue,Forced full churn for C0075; lowers the second-half ARR base.
+EVT-03,2026-01-01,Professional services utilization softness,Services revenue and margin,Q1 utilization is reduced before recovering in May and June.
+EVT-04,2026-05-01,Cloud vendor commitment renegotiation,Subscription gross margin,Hosting unit cost is reduced beginning in May 2026.
+EVT-05,2026-01-01,Hiring plan delay,R&D and services operating capacity,Actual 2026 hiring is below the budgeted run rate; payroll is favorable but capacity is constrained.
