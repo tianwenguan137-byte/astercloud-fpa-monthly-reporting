@@ -1,0 +1,119 @@
+table 'AR Aging'
+
+	column invoice_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: invoice_id
+
+	column customer_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: customer_id
+
+	column customer_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: customer_name
+
+	column segment
+		dataType: string
+		summarizeBy: none
+		sourceColumn: segment
+
+	column region_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: region_name
+
+	column project_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: project_id
+
+	column invoice_type
+		dataType: string
+		summarizeBy: none
+		sourceColumn: invoice_type
+
+	column issue_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		summarizeBy: none
+		sourceColumn: issue_date
+
+	column due_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		summarizeBy: none
+		sourceColumn: due_date
+
+	column invoice_amount_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: invoice_amount_usd
+
+	column amount_paid_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: amount_paid_usd
+
+	column outstanding_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: outstanding_usd
+
+	column invoice_status
+		dataType: string
+		summarizeBy: none
+		sourceColumn: invoice_status
+
+	column days_past_due
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: days_past_due
+
+	column aging_bucket
+		dataType: string
+		summarizeBy: none
+		sourceColumn: aging_bucket
+
+	column as_of_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		summarizeBy: none
+		sourceColumn: as_of_date
+
+	partition 'AR Aging' = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(
+					Web.Contents(RepositoryRawBaseUrl & "data/processed/07_ar_aging.csv"),
+					[Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				),
+				Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				Typed = Table.TransformColumnTypes(
+					Headers,
+					{{"invoice_id", type text},
+					{"customer_id", type text},
+					{"customer_name", type text},
+					{"segment", type text},
+					{"region_name", type text},
+					{"project_id", type text},
+					{"invoice_type", type text},
+					{"issue_date", type date},
+					{"due_date", type date},
+					{"invoice_amount_usd", type number},
+					{"amount_paid_usd", type number},
+					{"outstanding_usd", type number},
+					{"invoice_status", type text},
+					{"days_past_due", Int64.Type},
+					{"aging_bucket", type text},
+					{"as_of_date", type date}},
+					"en-US"
+				)
+			in
+				Typed

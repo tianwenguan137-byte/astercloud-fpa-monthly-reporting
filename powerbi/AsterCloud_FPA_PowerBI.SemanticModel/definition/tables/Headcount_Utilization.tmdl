@@ -1,0 +1,64 @@
+table 'Headcount Utilization'
+
+	column month_start
+		dataType: dateTime
+		isHidden
+		formatString: yyyy-mm-dd
+		summarizeBy: none
+		sourceColumn: month_start
+
+	column department_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: department_name
+
+	column function_group
+		dataType: string
+		summarizeBy: none
+		sourceColumn: function_group
+
+	column region_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: region_name
+
+	column fte
+		dataType: double
+		formatString: #,0.0
+		summarizeBy: none
+		sourceColumn: fte
+
+	column personnel_cost_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: personnel_cost_usd
+
+	column services_utilization_pct
+		dataType: double
+		formatString: 0.0%
+		summarizeBy: none
+		sourceColumn: services_utilization_pct
+
+	partition 'Headcount Utilization' = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(
+					Web.Contents(RepositoryRawBaseUrl & "data/processed/05_headcount_utilization.csv"),
+					[Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				),
+				Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				Typed = Table.TransformColumnTypes(
+					Headers,
+					{{"month_start", type date},
+					{"department_name", type text},
+					{"function_group", type text},
+					{"region_name", type text},
+					{"fte", type number},
+					{"personnel_cost_usd", type number},
+					{"services_utilization_pct", type number}},
+					"en-US"
+				)
+			in
+				Typed

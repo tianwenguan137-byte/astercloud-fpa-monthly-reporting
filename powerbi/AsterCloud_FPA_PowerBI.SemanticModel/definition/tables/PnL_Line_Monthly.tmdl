@@ -1,0 +1,58 @@
+table 'P&L Line Monthly'
+
+	column month_start
+		dataType: dateTime
+		isHidden
+		formatString: yyyy-mm-dd
+		summarizeBy: none
+		sourceColumn: month_start
+
+	column scenario
+		dataType: string
+		summarizeBy: none
+		sourceColumn: scenario
+
+	column pnl_line
+		dataType: string
+		sortByColumn: sort_order
+		summarizeBy: none
+		sourceColumn: pnl_line
+
+	column statement_section
+		dataType: string
+		summarizeBy: none
+		sourceColumn: statement_section
+
+	column sort_order
+		dataType: int64
+		isHidden
+		summarizeBy: none
+		sourceColumn: sort_order
+
+	column amount_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: amount_usd
+
+	partition 'P&L Line Monthly' = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(
+					Web.Contents(RepositoryRawBaseUrl & "data/processed/02_pnl_line_monthly.csv"),
+					[Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				),
+				Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				Typed = Table.TransformColumnTypes(
+					Headers,
+					{{"month_start", type date},
+					{"scenario", type text},
+					{"pnl_line", type text},
+					{"statement_section", type text},
+					{"sort_order", Int64.Type},
+					{"amount_usd", type number}},
+					"en-US"
+				)
+			in
+				Typed

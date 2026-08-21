@@ -1,0 +1,1 @@
+expression RepositoryRawBaseUrl = "https://raw.githubusercontent.com/tianwenguan137-byte/astercloud-fpa-monthly-reporting/main/" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]

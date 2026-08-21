@@ -1,0 +1,80 @@
+table 'Monthly KPI'
+
+	column month_start
+		dataType: dateTime
+		isHidden
+		formatString: yyyy-mm-dd
+		summarizeBy: none
+		sourceColumn: month_start
+
+	column total_revenue_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: total_revenue_usd
+
+	column gross_margin_pct
+		dataType: double
+		formatString: 0.0%
+		summarizeBy: none
+		sourceColumn: gross_margin_pct
+
+	column adjusted_ebitda_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: adjusted_ebitda_usd
+
+	column adjusted_ebitda_margin_pct
+		dataType: double
+		formatString: 0.0%
+		summarizeBy: none
+		sourceColumn: adjusted_ebitda_margin_pct
+
+	column ending_arr_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: ending_arr_usd
+
+	column active_customers
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: active_customers
+
+	column total_fte
+		dataType: double
+		formatString: #,0.0
+		summarizeBy: none
+		sourceColumn: total_fte
+
+	column services_utilization_pct
+		dataType: double
+		formatString: 0.0%
+		summarizeBy: none
+		sourceColumn: services_utilization_pct
+
+	partition 'Monthly KPI' = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(
+					Web.Contents(RepositoryRawBaseUrl & "data/processed/03_monthly_kpi.csv"),
+					[Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				),
+				Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				Typed = Table.TransformColumnTypes(
+					Headers,
+					{{"month_start", type date},
+					{"total_revenue_usd", type number},
+					{"gross_margin_pct", type number},
+					{"adjusted_ebitda_usd", type number},
+					{"adjusted_ebitda_margin_pct", type number},
+					{"ending_arr_usd", type number},
+					{"active_customers", Int64.Type},
+					{"total_fte", type number},
+					{"services_utilization_pct", type number}},
+					"en-US"
+				)
+			in
+				Typed

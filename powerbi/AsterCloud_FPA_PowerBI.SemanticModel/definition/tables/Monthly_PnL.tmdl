@@ -1,0 +1,129 @@
+table 'Monthly P&L'
+
+	column month_start
+		dataType: dateTime
+		isHidden
+		formatString: yyyy-mm-dd
+		summarizeBy: none
+		sourceColumn: month_start
+
+	column scenario
+		dataType: string
+		summarizeBy: none
+		sourceColumn: scenario
+
+	column subscription_revenue_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: subscription_revenue_usd
+
+	column services_revenue_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: services_revenue_usd
+
+	column total_revenue_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: total_revenue_usd
+
+	column cost_of_subscription_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: cost_of_subscription_usd
+
+	column cost_of_services_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: cost_of_services_usd
+
+	column gross_profit_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: gross_profit_usd
+
+	column gross_margin_pct
+		dataType: double
+		formatString: 0.0%
+		summarizeBy: none
+		sourceColumn: gross_margin_pct
+
+	column sales_marketing_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: sales_marketing_usd
+
+	column research_development_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: research_development_usd
+
+	column general_administrative_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: general_administrative_usd
+
+	column adjusted_ebitda_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: adjusted_ebitda_usd
+
+	column adjusted_ebitda_margin_pct
+		dataType: double
+		formatString: 0.0%
+		summarizeBy: none
+		sourceColumn: adjusted_ebitda_margin_pct
+
+	column depreciation_amortization_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: depreciation_amortization_usd
+
+	column operating_income_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: operating_income_usd
+
+	partition 'Monthly P&L' = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(
+					Web.Contents(RepositoryRawBaseUrl & "data/processed/01_monthly_pnl.csv"),
+					[Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				),
+				Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				Typed = Table.TransformColumnTypes(
+					Headers,
+					{{"month_start", type date},
+					{"scenario", type text},
+					{"subscription_revenue_usd", type number},
+					{"services_revenue_usd", type number},
+					{"total_revenue_usd", type number},
+					{"cost_of_subscription_usd", type number},
+					{"cost_of_services_usd", type number},
+					{"gross_profit_usd", type number},
+					{"gross_margin_pct", type number},
+					{"sales_marketing_usd", type number},
+					{"research_development_usd", type number},
+					{"general_administrative_usd", type number},
+					{"adjusted_ebitda_usd", type number},
+					{"adjusted_ebitda_margin_pct", type number},
+					{"depreciation_amortization_usd", type number},
+					{"operating_income_usd", type number}},
+					"en-US"
+				)
+			in
+				Typed

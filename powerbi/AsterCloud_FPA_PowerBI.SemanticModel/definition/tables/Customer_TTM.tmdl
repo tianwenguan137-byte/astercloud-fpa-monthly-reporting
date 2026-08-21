@@ -1,0 +1,81 @@
+table 'Customer TTM'
+
+	column revenue_rank
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: revenue_rank
+
+	column customer_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: customer_id
+
+	column customer_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: customer_name
+
+	column segment
+		dataType: string
+		summarizeBy: none
+		sourceColumn: segment
+
+	column industry
+		dataType: string
+		summarizeBy: none
+		sourceColumn: industry
+
+	column region_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: region_name
+
+	column subscription_revenue_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: subscription_revenue_usd
+
+	column services_revenue_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: services_revenue_usd
+
+	column total_revenue_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: total_revenue_usd
+
+	column revenue_share
+		dataType: double
+		formatString: 0.0%
+		summarizeBy: none
+		sourceColumn: revenue_share
+
+	partition 'Customer TTM' = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(
+					Web.Contents(RepositoryRawBaseUrl & "data/processed/08_customer_ttm.csv"),
+					[Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				),
+				Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				Typed = Table.TransformColumnTypes(
+					Headers,
+					{{"revenue_rank", Int64.Type},
+					{"customer_id", type text},
+					{"customer_name", type text},
+					{"segment", type text},
+					{"industry", type text},
+					{"region_name", type text},
+					{"subscription_revenue_usd", type number},
+					{"services_revenue_usd", type number},
+					{"total_revenue_usd", type number},
+					{"revenue_share", type number}},
+					"en-US"
+				)
+			in
+				Typed

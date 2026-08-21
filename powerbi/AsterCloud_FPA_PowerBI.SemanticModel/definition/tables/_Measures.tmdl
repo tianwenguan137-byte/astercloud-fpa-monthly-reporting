@@ -1,0 +1,174 @@
+table _Measures
+
+	/// Recognized subscription and services revenue for actual periods.
+	measure 'Actual Revenue' = CALCULATE(SUM('Monthly P&L'[total_revenue_usd]), 'Monthly P&L'[scenario] = "Actual")
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Budget Revenue' = CALCULATE(SUM('Monthly P&L'[total_revenue_usd]), 'Monthly P&L'[scenario] = "Budget")
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Q2 Forecast Revenue' = CALCULATE(SUM('Monthly P&L'[total_revenue_usd]), 'Monthly P&L'[scenario] = "Q2 Forecast")
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Actual Subscription Revenue' = CALCULATE(SUM('Monthly P&L'[subscription_revenue_usd]), 'Monthly P&L'[scenario] = "Actual")
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Actual Services Revenue' = CALCULATE(SUM('Monthly P&L'[services_revenue_usd]), 'Monthly P&L'[scenario] = "Actual")
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Actual Gross Profit' = CALCULATE(SUM('Monthly P&L'[gross_profit_usd]), 'Monthly P&L'[scenario] = "Actual")
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Actual Gross Margin %' = DIVIDE([Actual Gross Profit], [Actual Revenue])
+		formatString: 0.0%
+
+	measure 'Actual Adjusted EBITDA' = CALCULATE(SUM('Monthly P&L'[adjusted_ebitda_usd]), 'Monthly P&L'[scenario] = "Actual")
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Actual EBITDA Margin %' = DIVIDE([Actual Adjusted EBITDA], [Actual Revenue])
+		formatString: 0.0%
+
+	/// January through June 2026 actual revenue.
+	measure 'H1 Revenue' = CALCULATE([Actual Revenue], DATESBETWEEN(DimDate[month_start], DATE(2026, 1, 1), DATE(2026, 6, 1)))
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'H1 Budget Revenue' = CALCULATE([Budget Revenue], DATESBETWEEN(DimDate[month_start], DATE(2026, 1, 1), DATE(2026, 6, 1)))
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'H1 Revenue Variance' = [H1 Revenue] - [H1 Budget Revenue]
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'H1 vs Budget' = DIVIDE([H1 Revenue Variance], [H1 Budget Revenue])
+		formatString: 0.0%;(0.0%);-
+
+	measure 'H1 Gross Margin' = DIVIDE(CALCULATE([Actual Gross Profit], DATESBETWEEN(DimDate[month_start], DATE(2026, 1, 1), DATE(2026, 6, 1))), [H1 Revenue])
+		formatString: 0.0%
+
+	measure 'H1 Adj EBITDA' = CALCULATE([Actual Adjusted EBITDA], DATESBETWEEN(DimDate[month_start], DATE(2026, 1, 1), DATE(2026, 6, 1)))
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'FY2026 Budget Revenue' = CALCULATE([Budget Revenue], DATESBETWEEN(DimDate[month_start], DATE(2026, 1, 1), DATE(2026, 12, 1)))
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'FY2026 Q2 Forecast Revenue' = CALCULATE([Q2 Forecast Revenue], DATESBETWEEN(DimDate[month_start], DATE(2026, 1, 1), DATE(2026, 12, 1)))
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'FY2026 Revenue Forecast Variance' = [FY2026 Q2 Forecast Revenue] - [FY2026 Budget Revenue]
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'FY2026 Budget Adj EBITDA' = CALCULATE(SUM('Monthly P&L'[adjusted_ebitda_usd]), 'Monthly P&L'[scenario] = "Budget", DATESBETWEEN(DimDate[month_start], DATE(2026, 1, 1), DATE(2026, 12, 1)))
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'FY2026 Q2 Forecast Adj EBITDA' = CALCULATE(SUM('Monthly P&L'[adjusted_ebitda_usd]), 'Monthly P&L'[scenario] = "Q2 Forecast", DATESBETWEEN(DimDate[month_start], DATE(2026, 1, 1), DATE(2026, 12, 1)))
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Ending ARR' = CALCULATE(MAX('Monthly KPI'[ending_arr_usd]), DimDate[month_start] = DATE(2026, 6, 1))
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Active Customers' = CALCULATE(MAX('Monthly KPI'[active_customers]), DimDate[month_start] = DATE(2026, 6, 1))
+		formatString: #,0
+
+	measure FTE = CALCULATE(MAX('Monthly KPI'[total_fte]), DimDate[month_start] = DATE(2026, 6, 1))
+		formatString: #,0.0
+
+	measure 'Services Utilization' = CALCULATE(MAX('Monthly KPI'[services_utilization_pct]), DimDate[month_start] = DATE(2026, 6, 1))
+		formatString: 0.0%
+
+	/// Positive values are favorable for both revenue and cost lines.
+	measure 'H1 Favorable Variance' = ```
+			VAR ActualAmount =
+			    CALCULATE(
+			        SUM('P&L Line Monthly'[amount_usd]),
+			        'P&L Line Monthly'[scenario] = "Actual",
+			        DATESBETWEEN(DimDate[month_start], DATE(2026, 1, 1), DATE(2026, 6, 1))
+			    )
+			VAR BudgetAmount =
+			    CALCULATE(
+			        SUM('P&L Line Monthly'[amount_usd]),
+			        'P&L Line Monthly'[scenario] = "Budget",
+			        DATESBETWEEN(DimDate[month_start], DATE(2026, 1, 1), DATE(2026, 6, 1))
+			    )
+			VAR SectionName = SELECTEDVALUE('P&L Line Monthly'[statement_section])
+			RETURN
+			    IF(SectionName = "Revenue", ActualAmount - BudgetAmount, BudgetAmount - ActualAmount)
+			```
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Opening ARR' = SUM('ARR Bridge'[opening_arr_usd])
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'New ARR' = SUM('ARR Bridge'[new_arr_usd])
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Expansion ARR' = SUM('ARR Bridge'[expansion_arr_usd])
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Contraction ARR' = SUM('ARR Bridge'[contraction_arr_usd])
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Churn ARR' = SUM('ARR Bridge'[churn_arr_usd])
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'ARR Trend' = SUM('ARR Bridge'[ending_arr_usd])
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'TTM Customer Revenue' = SUM('Customer TTM'[total_revenue_usd])
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Subscription Mix' = DIVIDE(SUM('Customer TTM'[subscription_revenue_usd]), [TTM Customer Revenue])
+		formatString: 0.0%
+
+	measure 'June FTE by Function' = CALCULATE(SUM('Headcount Utilization'[fte]), DimDate[month_start] = DATE(2026, 6, 1))
+		formatString: #,0.0
+
+	measure 'H1 Personnel Cost' = CALCULATE(SUM('Headcount Utilization'[personnel_cost_usd]), DATESBETWEEN(DimDate[month_start], DATE(2026, 1, 1), DATE(2026, 6, 1)))
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Weighted Utilization' = ```
+			VAR ServiceRows =
+			    FILTER(
+			        'Headcount Utilization',
+			        NOT ISBLANK('Headcount Utilization'[services_utilization_pct])
+			    )
+			RETURN
+			    DIVIDE(
+			        SUMX(ServiceRows, 'Headcount Utilization'[services_utilization_pct] * 'Headcount Utilization'[fte]),
+			        SUMX(ServiceRows, 'Headcount Utilization'[fte])
+			    )
+			```
+		formatString: 0.0%
+
+	measure 'Project Revenue' = SUM('Project Margin'[revenue_to_date_usd])
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Project Gross Profit' = SUM('Project Margin'[gross_profit_usd])
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Project Gross Margin' = DIVIDE([Project Gross Profit], [Project Revenue])
+		formatString: 0.0%
+
+	measure 'Open AR' = SUM('AR Aging'[outstanding_usd])
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Past Due AR' = CALCULATE([Open AR], 'AR Aging'[days_past_due] > 0)
+		formatString: $#,0.0,,M;($#,0.0,,M);-
+
+	measure 'Past Due %' = DIVIDE([Past Due AR], [Open AR])
+		formatString: 0.0%
+
+	measure 'Weighted Days Past Due' = DIVIDE(SUMX('AR Aging', 'AR Aging'[outstanding_usd] * MAX('AR Aging'[days_past_due], 0)), [Open AR])
+		formatString: #,0.0
+
+	measure 'Failed Checks' = CALCULATE(COUNTROWS('Quality Checks'), 'Quality Checks'[status] <> "PASS")
+		formatString: #,0
+
+	column Dummy
+		dataType: string
+		isHidden
+		summarizeBy: none
+		sourceColumn: Dummy
+
+	partition _Measures = m
+		mode: import
+		source =
+			#table(type table [Dummy = text], {{null}})

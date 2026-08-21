@@ -1,0 +1,122 @@
+table 'Project Margin'
+
+	column project_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: project_id
+
+	column customer_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: customer_name
+
+	column segment
+		dataType: string
+		summarizeBy: none
+		sourceColumn: segment
+
+	column region_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: region_name
+
+	column project_type
+		dataType: string
+		summarizeBy: none
+		sourceColumn: project_type
+
+	column contract_type
+		dataType: string
+		summarizeBy: none
+		sourceColumn: contract_type
+
+	column start_month
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		summarizeBy: none
+		sourceColumn: start_month
+
+	column planned_end_month
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		summarizeBy: none
+		sourceColumn: planned_end_month
+
+	column status
+		dataType: string
+		summarizeBy: none
+		sourceColumn: status
+
+	column revenue_to_date_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: revenue_to_date_usd
+
+	column direct_labor_cost_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: direct_labor_cost_usd
+
+	column subcontractor_cost_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: subcontractor_cost_usd
+
+	column travel_cost_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: travel_cost_usd
+
+	column gross_profit_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: gross_profit_usd
+
+	column gross_margin_pct
+		dataType: double
+		formatString: 0.0%
+		summarizeBy: none
+		sourceColumn: gross_margin_pct
+
+	column realized_bill_rate_usd
+		dataType: double
+		formatString: $#,0;($#,0);-
+		summarizeBy: none
+		sourceColumn: realized_bill_rate_usd
+
+	partition 'Project Margin' = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(
+					Web.Contents(RepositoryRawBaseUrl & "data/processed/06_project_margin.csv"),
+					[Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				),
+				Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				Typed = Table.TransformColumnTypes(
+					Headers,
+					{{"project_id", type text},
+					{"customer_name", type text},
+					{"segment", type text},
+					{"region_name", type text},
+					{"project_type", type text},
+					{"contract_type", type text},
+					{"start_month", type date},
+					{"planned_end_month", type date},
+					{"status", type text},
+					{"revenue_to_date_usd", type number},
+					{"direct_labor_cost_usd", type number},
+					{"subcontractor_cost_usd", type number},
+					{"travel_cost_usd", type number},
+					{"gross_profit_usd", type number},
+					{"gross_margin_pct", type number},
+					{"realized_bill_rate_usd", type number}},
+					"en-US"
+				)
+			in
+				Typed

@@ -1,0 +1,53 @@
+table 'Quality Checks'
+
+	column check_order
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: check_order
+
+	column check_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: check_name
+
+	column difference
+		dataType: double
+		summarizeBy: none
+		sourceColumn: difference
+
+	column tolerance
+		dataType: double
+		summarizeBy: none
+		sourceColumn: tolerance
+
+	column status
+		dataType: string
+		summarizeBy: none
+		sourceColumn: status
+
+	column fix_location
+		dataType: string
+		summarizeBy: none
+		sourceColumn: fix_location
+
+	partition 'Quality Checks' = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(
+					Web.Contents(RepositoryRawBaseUrl & "data/processed/09_quality_checks.csv"),
+					[Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				),
+				Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				Typed = Table.TransformColumnTypes(
+					Headers,
+					{{"check_order", Int64.Type},
+					{"check_name", type text},
+					{"difference", type number},
+					{"tolerance", type number},
+					{"status", type text},
+					{"fix_location", type text}},
+					"en-US"
+				)
+			in
+				Typed

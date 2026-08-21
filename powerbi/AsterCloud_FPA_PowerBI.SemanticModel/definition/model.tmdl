@@ -1,0 +1,16 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+
+ref table DimDate
+ref table 'Monthly P&L'
+ref table 'P&L Line Monthly'
+ref table 'Monthly KPI'
+ref table 'ARR Bridge'
+ref table 'Headcount Utilization'
+ref table 'Project Margin'
+ref table 'AR Aging'
+ref table 'Customer TTM'
+ref table 'Quality Checks'
+ref table _Measures

@@ -1,0 +1,19 @@
+relationship f48d8441c2d6118ab14f
+	fromColumn: 'Monthly P&L'.month_start
+	toColumn: DimDate.month_start
+
+relationship 62226b9efa3be5d0b3ac
+	fromColumn: 'P&L Line Monthly'.month_start
+	toColumn: DimDate.month_start
+
+relationship 49278337c895c027a78b
+	fromColumn: 'Monthly KPI'.month_start
+	toColumn: DimDate.month_start
+
+relationship fce02dc8751d12bfa2c9
+	fromColumn: 'ARR Bridge'.month_start
+	toColumn: DimDate.month_start
+
+relationship c3c9069d312d6615786c
+	fromColumn: 'Headcount Utilization'.month_start
+	toColumn: DimDate.month_start
